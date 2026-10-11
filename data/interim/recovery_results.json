@@ -1,0 +1,2602 @@
+[
+  {
+    "incident_id": "INC001",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC002",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC003",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC004",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC005",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC006",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC007",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC008",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC009",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC010",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC011",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC012",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC013",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC014",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC015",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC016",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC017",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC018",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC019",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC020",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC021",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC022",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC023",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC024",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC025",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC026",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC027",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC028",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC029",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC030",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC031",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC032",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC033",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC034",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC035",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC036",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC037",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC038",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC039",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC040",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC041",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC042",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC043",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC044",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC045",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC046",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC047",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC048",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC049",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC050",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC051",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC052",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC053",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC054",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC055",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC056",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC057",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC058",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC059",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC060",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC061",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC062",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC063",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC064",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC065",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC066",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC067",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC068",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC069",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC070",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC071",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC072",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC073",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC074",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC075",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC076",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC077",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC078",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC079",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC080",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC081",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC082",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC083",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC084",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC085",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC086",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC087",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC088",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC089",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC090",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC091",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC092",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC093",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC094",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC095",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC096",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC097",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC098",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC099",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  {
+    "incident_id": "INC100",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  }
+]

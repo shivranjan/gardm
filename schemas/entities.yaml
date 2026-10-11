@@ -1,0 +1,2434 @@
+schema_version: 1.0.0
+dataset: BDP-GARDM-v0.3-PILOT
+pilot_status: development/pilot only
+tables:
+  pipeline_dependencies:
+    purpose: Pipeline dependency relationships.
+    record_count_pilot: 34
+    primary_key: dependency_id
+    columns:
+      dependency_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+      pipeline_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+      upstream_pipeline_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+      dependency_type:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - TRIGGER
+          - CONTROL
+          - DATA
+      dependency_criticality:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - MEDIUM
+          - HIGH
+          - LOW
+      dependency_order:
+        type: integer
+        required: true
+        role: decision_time_or_context
+  regulatory_constraints:
+    purpose: Regulatory obligations/constraints.
+    record_count_pilot: 6
+    primary_key: constraint_id
+    columns:
+      constraint_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - REG01
+          - REG02
+          - REG03
+          - REG04
+          - REG05
+          - REG06
+      obligation:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - LINEAGE_REQUIRED
+          - AUDIT_TRAIL_REQUIRED
+          - DATA_INTEGRITY_REQUIRED
+          - TRACEABILITY_REQUIRED
+          - CONTROLLED_CHANGE
+          - GOVERNED_RECOVERY
+      scope:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - Regulatory pipelines
+          - Recovery decisions
+          - Banking pipelines
+          - Recovery actions
+          - Regulatory transformations
+          - High-risk regulatory operations
+      regulatory_reference:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - BCBS_239
+      active_status:
+        type: integer
+        required: true
+        role: decision_time_or_context
+        rules:
+          allowed:
+          - 0
+          - 1
+  audit_logs:
+    purpose: Tamper-evident audit trail.
+    record_count_pilot: 300
+    primary_key: audit_id
+    columns:
+      audit_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+      incident_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+      event_id:
+        type: number
+        required: false
+        role: decision_time_or_context
+      actor_type:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - AGENT
+          - BASELINE
+      actor_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - AG04
+          - RULE_BASED
+          - MLOPS
+      action:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - RECOVERY_EXECUTION
+      policy_evaluated:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - POLICY_SET_V03
+      policy_result:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - PASS
+          - FAIL
+      risk_assessment:
+        type: number
+        required: true
+        role: decision_time_or_context
+        rules:
+          range:
+          - 0
+          - 1
+      decision:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - HITL_ESCALATION
+          - AUTONOMOUS_RECOVERY
+          - ADAPTIVE_REPLANNING
+      justification:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - Synthetic pilot audit
+      timestamp:
+        type: datetime
+        required: true
+        role: decision_time_or_context
+      previous_hash:
+        type: string
+        required: true
+        role: decision_time_or_context
+      current_hash:
+        type: string
+        required: true
+        role: decision_time_or_context
+      audit_integrity_status:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - VALID
+  experiment_runs:
+    purpose: Experiment/run metadata for each approach and scenario.
+    record_count_pilot: 300
+    primary_key: experiment_id
+    columns:
+      experiment_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+      incident_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+      approach:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - GARDM
+          - RULE_BASED
+          - MLOPS
+      scenario_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+      fault_category:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - DATA_QUALITY
+          - ORCHESTRATION
+          - INFRASTRUCTURE
+          - SCHEMA
+      fault_code:
+        type: string
+        required: true
+        role: decision_time_or_context
+      pipeline_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+      pipeline_criticality:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - HIGH
+          - MEDIUM
+          - LOW
+          - CRITICAL
+      run_number:
+        type: integer
+        required: true
+        role: decision_time_or_context
+      random_seed:
+        type: integer
+        required: true
+        role: decision_time_or_context
+      environment_version:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - PILOT-V03
+  manifest:
+    purpose: Dataset inventory and expected table dimensions.
+    record_count_pilot: 32
+    primary_key: table
+    columns:
+      table:
+        type: string
+        required: true
+        role: decision_time_or_context
+      rows:
+        type: integer
+        required: true
+        role: decision_time_or_context
+      columns:
+        type: integer
+        required: true
+        role: decision_time_or_context
+  candidate_recovery_actions:
+    purpose: Reference catalog of feasible recovery actions.
+    record_count_pilot: 13
+    primary_key: action_id
+    columns:
+      action_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+      action_class:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - AUTONOMOUS_RECOVERY
+          - ADAPTIVE_REPLANNING
+          - HITL_ESCALATION
+      action_name:
+        type: string
+        required: true
+        role: decision_time_or_context
+      requires_approval:
+        type: integer
+        required: true
+        role: decision_time_or_context
+        rules:
+          allowed:
+          - 0
+          - 1
+      data_modification:
+        type: integer
+        required: true
+        role: decision_time_or_context
+        rules:
+          allowed:
+          - 0
+          - 1
+      rollback_capability:
+        type: integer
+        required: true
+        role: decision_time_or_context
+        rules:
+          allowed:
+          - 0
+          - 1
+      expected_recovery_time_sec:
+        type: integer
+        required: true
+        role: decision_time_or_context
+      active_status:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - ACTIVE
+  validation_events:
+    purpose: Post-recovery verification results.
+    record_count_pilot: 300
+    primary_key: validation_id
+    columns:
+      validation_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+      incident_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+      recovery_execution_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+      validation_timestamp:
+        type: datetime
+        required: true
+        role: decision_time_or_context
+      service_restored:
+        type: integer
+        required: true
+        role: evaluation_or_ground_truth_only
+      data_integrity_restored:
+        type: integer
+        required: true
+        role: evaluation_or_ground_truth_only
+      data_quality_restored:
+        type: integer
+        required: true
+        role: evaluation_or_ground_truth_only
+      pipeline_state_restored:
+        type: integer
+        required: true
+        role: evaluation_or_ground_truth_only
+      governance_verified:
+        type: integer
+        required: true
+        role: evaluation_or_ground_truth_only
+      audit_record_verified:
+        type: integer
+        required: true
+        role: evaluation_or_ground_truth_only
+      validation_confidence:
+        type: number
+        required: true
+        role: decision_time_or_context
+        rules:
+          range:
+          - 0
+          - 1
+      validation_status:
+        type: string
+        required: true
+        role: evaluation_or_ground_truth_only
+        rules:
+          observed_values:
+          - VERIFIED
+          - FAILED
+  evaluation_results:
+    purpose: Outcome and comparative evaluation metrics.
+    record_count_pilot: 300
+    primary_key: result_id
+    columns:
+      result_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+      experiment_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+      incident_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+      approach:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - GARDM
+          - RULE_BASED
+          - MLOPS
+      predicted_action:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - HITL_ESCALATION
+          - AUTONOMOUS_RECOVERY
+          - ADAPTIVE_REPLANNING
+      ground_truth_action:
+        type: string
+        required: true
+        role: evaluation_or_ground_truth_only
+        rules:
+          observed_values:
+          - HITL_ESCALATION
+          - AUTONOMOUS_RECOVERY
+          - ADAPTIVE_REPLANNING
+      action_correct:
+        type: integer
+        required: true
+        role: evaluation_or_ground_truth_only
+      detection_success:
+        type: integer
+        required: true
+        role: evaluation_or_ground_truth_only
+        rules:
+          allowed:
+          - 0
+          - 1
+      diagnosis_success:
+        type: integer
+        required: true
+        role: evaluation_or_ground_truth_only
+        rules:
+          allowed:
+          - 0
+          - 1
+      recovery_success:
+        type: integer
+        required: true
+        role: evaluation_or_ground_truth_only
+        rules:
+          allowed:
+          - 0
+          - 1
+      recovery_time_sec:
+        type: integer
+        required: true
+        role: decision_time_or_context
+      mttd_sec:
+        type: integer
+        required: true
+        role: decision_time_or_context
+      diagnosis_time_sec:
+        type: integer
+        required: true
+        role: decision_time_or_context
+      decision_latency_sec:
+        type: integer
+        required: true
+        role: decision_time_or_context
+      mttr_sec:
+        type: integer
+        required: true
+        role: decision_time_or_context
+      governance_compliance:
+        type: integer
+        required: true
+        role: evaluation_or_ground_truth_only
+        rules:
+          range:
+          - 0
+          - 1
+      risk_tier_correct:
+        type: integer
+        required: true
+        role: evaluation_or_ground_truth_only
+      hitl_activated:
+        type: integer
+        required: true
+        role: decision_time_or_context
+      approval_latency_sec:
+        type: integer
+        required: true
+        role: decision_time_or_context
+      audit_completeness:
+        type: integer
+        required: true
+        role: decision_time_or_context
+      operational_reliability:
+        type: integer
+        required: true
+        role: decision_time_or_context
+      verified_restoration:
+        type: integer
+        required: true
+        role: evaluation_or_ground_truth_only
+      self_healing_success:
+        type: integer
+        required: true
+        role: evaluation_or_ground_truth_only
+        rules:
+          allowed:
+          - 0
+          - 1
+      failure_reason:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - NONE
+          - EXECUTION_FAILED
+  audit_policies:
+    purpose: Audit policy definitions.
+    record_count_pilot: 6
+    primary_key: audit_policy_id
+    columns:
+      audit_policy_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - AUD01
+          - AUD02
+          - AUD03
+          - AUD04
+          - AUD05
+          - AUD06
+      policy_name:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - DECISION
+          - GOVERNANCE
+          - RECOVERY
+          - VALIDATION
+          - HITL
+          - INTEGRITY
+      required_elements:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - Incident, action, reason, timestamp
+          - Policy and risk checks
+          - Execution outcome
+          - Restoration checks
+          - Approval decision and latency
+          - Hash-chain verification
+      enabled:
+        type: integer
+        required: true
+        role: decision_time_or_context
+        rules:
+          allowed:
+          - 0
+          - 1
+  hitl_policies:
+    purpose: Human-in-the-loop trigger policies.
+    record_count_pilot: 6
+    primary_key: hitl_policy_id
+    columns:
+      hitl_policy_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - HITL01
+          - HITL02
+          - HITL03
+          - HITL04
+          - HITL05
+          - HITL06
+      policy_name:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - HIGH_RISK
+          - CRITICAL
+          - REGULATORY
+          - LOW_CONFIDENCE
+          - POLICY
+          - REPEAT_FAIL
+      condition:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - Risk >= 0.60
+          - Critical pipeline
+          - High regulatory relevance + high severity
+          - Diagnosis confidence < 0.70
+          - Autonomous action violates policy
+          - Repeated recovery failure
+      enabled:
+        type: integer
+        required: true
+        role: decision_time_or_context
+        rules:
+          allowed:
+          - 0
+          - 1
+  incident_context:
+    purpose: Decision-time context assembled for each pilot incident.
+    record_count_pilot: 100
+    primary_key: incident_id
+    columns:
+      incident_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+      pipeline_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+      execution_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+      fault_code:
+        type: string
+        required: true
+        role: decision_time_or_context
+      fault_category:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - DATA_QUALITY
+          - ORCHESTRATION
+          - INFRASTRUCTURE
+          - SCHEMA
+      failure_timestamp:
+        type: datetime
+        required: true
+        role: decision_time_or_context
+      detection_timestamp:
+        type: datetime
+        required: true
+        role: decision_time_or_context
+      failure_severity:
+        type: number
+        required: true
+        role: decision_time_or_context
+        rules:
+          range:
+          - 0
+          - 1
+      operational_risk:
+        type: number
+        required: true
+        role: decision_time_or_context
+        rules:
+          range:
+          - 0
+          - 1
+      pipeline_state_score:
+        type: number
+        required: true
+        role: decision_time_or_context
+        rules:
+          range:
+          - 0
+          - 1
+      policy_compliance_score:
+        type: number
+        required: true
+        role: decision_time_or_context
+        rules:
+          range:
+          - 0
+          - 1
+      historical_similarity_score:
+        type: number
+        required: true
+        role: decision_time_or_context
+        rules:
+          range:
+          - 0
+          - 1
+      pipeline_criticality:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - HIGH
+          - MEDIUM
+          - LOW
+          - CRITICAL
+      pii_involved:
+        type: integer
+        required: true
+        role: decision_time_or_context
+        rules:
+          allowed:
+          - 0
+          - 1
+      regulatory_relevance:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - HIGH
+          - MEDIUM
+          - LOW
+      affected_records:
+        type: integer
+        required: true
+        role: decision_time_or_context
+      affected_partitions:
+        type: integer
+        required: true
+        role: decision_time_or_context
+      dependency_count:
+        type: integer
+        required: true
+        role: decision_time_or_context
+      business_impact_score:
+        type: number
+        required: true
+        role: decision_time_or_context
+        rules:
+          range:
+          - 0
+          - 1
+      sla_breach_risk:
+        type: number
+        required: true
+        role: decision_time_or_context
+        rules:
+          range:
+          - 0
+          - 1
+      diagnosis_confidence:
+        type: number
+        required: true
+        role: decision_time_or_context
+        rules:
+          range:
+          - 0
+          - 1
+      root_cause_confidence:
+        type: number
+        required: true
+        role: decision_time_or_context
+        rules:
+          range:
+          - 0
+          - 1
+      available_recovery_options:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - A1,A2,A3
+      hitl_policy_triggered:
+        type: integer
+        required: true
+        role: decision_time_or_context
+        rules:
+          allowed:
+          - 0
+          - 1
+      context_timestamp:
+        type: datetime
+        required: true
+        role: decision_time_or_context
+  hitl_events:
+    purpose: HITL requests, responses and fallback decisions.
+    record_count_pilot: 145
+    primary_key: hitl_event_id
+    columns:
+      hitl_event_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+      incident_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+      decision_id:
+        type: string
+        required: false
+        role: decision_time_or_context
+      trigger_reason:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - RISK_OR_GOVERNANCE
+      risk_tier:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - HIGH
+          - CRITICAL
+      requested_timestamp:
+        type: datetime
+        required: true
+        role: decision_time_or_context
+      response_timestamp:
+        type: datetime
+        required: true
+        role: decision_time_or_context
+      approval_status:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - APPROVED
+          - REJECTED
+      approval_latency_sec:
+        type: integer
+        required: true
+        role: decision_time_or_context
+      reviewer_role:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - SYNTHETIC_ROLE
+      synthetic_reviewer_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - REV01
+      justification:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - Pilot governance review
+      fallback_action:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - CONTINUE
+          - HOLD_PIPELINE
+  customers:
+    purpose: Synthetic customer master data supporting transaction context.
+    record_count_pilot: 50
+    primary_key: customer_id
+    columns:
+      customer_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+      customer_type:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - INDIVIDUAL
+          - SME
+      customer_segment:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - RETAIL
+          - MASS_AFFLUENT
+          - PREMIUM
+          - BUSINESS
+      customer_status:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - ACTIVE
+          - CLOSED
+          - DORMANT
+      country_code:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - IN
+      risk_class:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - HIGH
+          - MEDIUM
+          - LOW
+  transactions:
+    purpose: Synthetic transaction records used as business/data context.
+    record_count_pilot: 100
+    primary_key: transaction_id
+    columns:
+      transaction_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+      account_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+      customer_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+      transaction_timestamp:
+        type: datetime
+        required: true
+        role: decision_time_or_context
+      transaction_type:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - PAYMENT
+          - DEPOSIT
+          - WITHDRAWAL
+          - TRANSFER
+          - REFUND
+      amount:
+        type: number
+        required: true
+        role: decision_time_or_context
+      currency:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - INR
+      merchant_id:
+        type: string
+        required: false
+        role: decision_time_or_context
+      channel:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - BRANCH
+          - ATM
+          - API
+          - MOBILE
+          - POS
+          - WEB
+      transaction_status:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - SUCCESS
+          - REVERSED
+          - PENDING
+          - FAILED
+      is_reversal:
+        type: integer
+        required: true
+        role: decision_time_or_context
+        rules:
+          allowed:
+          - 0
+          - 1
+      is_duplicate:
+        type: integer
+        required: true
+        role: decision_time_or_context
+        rules:
+          allowed:
+          - 0
+          - 1
+      data_quality_flag:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - VALID
+  ground_truth_decisions:
+    purpose: Independent ground truth used only for evaluation.
+    record_count_pilot: 100
+    primary_key: ground_truth_id
+    columns:
+      ground_truth_id:
+        type: string
+        required: true
+        role: evaluation_or_ground_truth_only
+      incident_id:
+        type: string
+        required: true
+        role: evaluation_or_ground_truth_only
+      correct_fault_code:
+        type: string
+        required: true
+        role: evaluation_or_ground_truth_only
+      correct_severity:
+        type: number
+        required: true
+        role: evaluation_or_ground_truth_only
+      correct_risk_tier:
+        type: string
+        required: true
+        role: evaluation_or_ground_truth_only
+        rules:
+          observed_values:
+          - HIGH
+          - LOW
+          - MEDIUM
+          - CRITICAL
+      permissible_actions:
+        type: string
+        required: true
+        role: evaluation_or_ground_truth_only
+        rules:
+          observed_values:
+          - HITL_ESCALATION
+          - AUTONOMOUS_RECOVERY,ADAPTIVE_REPLANNING
+      optimal_recovery_action:
+        type: string
+        required: true
+        role: evaluation_or_ground_truth_only
+        rules:
+          observed_values:
+          - HITL_ESCALATION
+          - AUTONOMOUS_RECOVERY
+          - ADAPTIVE_REPLANNING
+      hitl_required:
+        type: integer
+        required: true
+        role: evaluation_or_ground_truth_only
+        rules:
+          allowed:
+          - 0
+          - 1
+      expected_recovery_time_sec:
+        type: integer
+        required: true
+        role: evaluation_or_ground_truth_only
+      expert_confidence:
+        type: number
+        required: false
+        role: evaluation_or_ground_truth_only
+      justification:
+        type: string
+        required: true
+        role: evaluation_or_ground_truth_only
+        rules:
+          observed_values:
+          - Independent predefined scenario/risk/governance rule
+  pipeline_metadata:
+    purpose: Pipeline metadata and business context.
+    record_count_pilot: 25
+    primary_key: pipeline_id
+    columns:
+      pipeline_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+      pipeline_name:
+        type: string
+        required: true
+        role: decision_time_or_context
+      pipeline_type:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - ETL
+          - BATCH
+          - STREAMING
+          - ELT
+          - MICRO_BATCH
+      business_function:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - REGULATORY_REPORTING
+          - TRANSACTION_PROCESSING
+          - RISK_ANALYTICS
+          - DATA_WAREHOUSE
+          - AML_ANALYTICS
+          - FRAUD_ANALYTICS
+      processing_mode:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - MICRO_BATCH
+          - BATCH
+          - STREAMING
+      criticality:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - LOW
+          - MEDIUM
+          - HIGH
+          - CRITICAL
+      data_sensitivity:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - CONFIDENTIAL
+          - INTERNAL
+          - RESTRICTED
+      pii_involved:
+        type: integer
+        required: true
+        role: decision_time_or_context
+        rules:
+          allowed:
+          - 0
+          - 1
+      regulatory_relevance:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - HIGH
+          - MEDIUM
+          - LOW
+      sla_minutes:
+        type: integer
+        required: true
+        role: decision_time_or_context
+      owner_role:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - DATA_ENGINEERING
+          - ANALYTICS
+          - RISK
+          - COMPLIANCE
+      active_status:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - ACTIVE
+  governance_evaluations:
+    purpose: Governance evaluation of candidate actions.
+    record_count_pilot: 300
+    primary_key: evaluation_id
+    columns:
+      evaluation_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+      incident_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+      action_class:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - AUTONOMOUS_RECOVERY
+          - ADAPTIVE_REPLANNING
+          - HITL_ESCALATION
+      policy_set_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - POLICY_SET_V03
+      policy_result:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - PASS
+      risk_result:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - FAIL
+          - PASS
+      regulatory_result:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - PASS
+          - FAIL
+      criticality_result:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - PASS
+          - FAIL
+      action_allowed:
+        type: integer
+        required: true
+        role: decision_time_or_context
+      evaluation_timestamp:
+        type: datetime
+        required: true
+        role: decision_time_or_context
+  fault_catalog:
+    purpose: Reference catalog of the 27 fault types.
+    record_count_pilot: 27
+    primary_key: fault_code
+    columns:
+      fault_code:
+        type: string
+        required: true
+        role: decision_time_or_context
+      fault_category:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - SCHEMA
+          - DATA_QUALITY
+          - INFRASTRUCTURE
+          - ORCHESTRATION
+      fault_name:
+        type: string
+        required: true
+        role: decision_time_or_context
+      fault_mechanism:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - STRUCTURE_MUTATION
+          - DATA_MUTATION
+          - SERVICE_DISRUPTION
+          - WORKFLOW_MUTATION
+      severity_default:
+        type: number
+        required: true
+        role: decision_time_or_context
+      detectability:
+        type: number
+        required: true
+        role: decision_time_or_context
+      recoverability:
+        type: number
+        required: true
+        role: decision_time_or_context
+      data_impact:
+        type: number
+        required: true
+        role: decision_time_or_context
+      service_impact:
+        type: number
+        required: true
+        role: decision_time_or_context
+      governance_relevance:
+        type: number
+        required: true
+        role: decision_time_or_context
+      active:
+        type: integer
+        required: true
+        role: decision_time_or_context
+        rules:
+          allowed:
+          - 0
+          - 1
+  merchants:
+    purpose: Synthetic merchant master data supporting transaction context.
+    record_count_pilot: 30
+    primary_key: merchant_id
+    columns:
+      merchant_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+      merchant_category:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - TRAVEL
+          - HEALTHCARE
+          - GROCERY
+          - RESTAURANT
+          - UTILITIES
+          - ECOMMERCE
+      merchant_country:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - IN
+          - SG
+          - US
+          - GB
+          - AE
+      merchant_risk:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - LOW
+          - HIGH
+          - MEDIUM
+      merchant_status:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - ACTIVE
+  fault_injection_events:
+    purpose: Controlled fault injections used to create pilot incidents.
+    record_count_pilot: 100
+    primary_key: fault_event_id
+    columns:
+      fault_event_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+      incident_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+      pipeline_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+      execution_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+      fault_code:
+        type: string
+        required: true
+        role: decision_time_or_context
+      injection_timestamp:
+        type: datetime
+        required: true
+        role: decision_time_or_context
+      fault_intensity:
+        type: number
+        required: true
+        role: decision_time_or_context
+      affected_records:
+        type: integer
+        required: true
+        role: decision_time_or_context
+      affected_tasks:
+        type: integer
+        required: true
+        role: decision_time_or_context
+      affected_partitions:
+        type: integer
+        required: true
+        role: decision_time_or_context
+      duration_seconds:
+        type: integer
+        required: true
+        role: decision_time_or_context
+      injection_target:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - INGESTION
+          - TRANSFORMATION
+          - ORCHESTRATION
+          - STORAGE
+      injection_success:
+        type: integer
+        required: true
+        role: decision_time_or_context
+        rules:
+          allowed:
+          - 0
+          - 1
+      seed:
+        type: integer
+        required: true
+        role: decision_time_or_context
+      injection_version:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - FI-V03
+  accounts:
+    purpose: Synthetic account master data linked to customers.
+    record_count_pilot: 75
+    primary_key: account_id
+    columns:
+      account_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+      customer_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+      account_type:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - SAVINGS
+          - CURRENT
+          - LOAN
+          - SALARY
+      currency:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - INR
+      account_status:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - ACTIVE
+      balance:
+        type: number
+        required: true
+        role: decision_time_or_context
+      account_risk:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - MEDIUM
+          - LOW
+          - HIGH
+  agent_events:
+    purpose: Multi-agent event trace/correlation log.
+    record_count_pilot: 500
+    primary_key: event_id
+    columns:
+      event_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+      incident_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+      agent_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - AG01
+          - AG02
+          - AG03
+          - AG04
+          - AG05
+      agent_type:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - MONITORING
+          - DIAGNOSIS
+          - GOVERNANCE
+          - RECOVERY
+          - VALIDATION
+      event_type:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - FAULT_DETECTED
+          - ROOT_CAUSE_IDENTIFIED
+          - POLICY_EVALUATED
+          - RECOVERY_REQUESTED
+          - RESTORATION_CHECKED
+      event_timestamp:
+        type: datetime
+        required: true
+        role: decision_time_or_context
+      source_agent:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - SYSTEM
+          - AG01
+          - AG02
+          - AG03
+          - AG04
+      destination_agent:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - AG01
+          - AG02
+          - AG03
+          - AG04
+          - AG05
+      correlation_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+      payload:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - '{"synthetic": true}'
+      confidence:
+        type: number
+        required: true
+        role: decision_time_or_context
+      processing_time_ms:
+        type: integer
+        required: true
+        role: decision_time_or_context
+      event_status:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - SUCCESS
+      agent_version:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - AGENTIC-V03
+  risk_rules:
+    purpose: Risk-score-to-tier and HITL mapping rules.
+    record_count_pilot: 4
+    primary_key: risk_rule_id
+    columns:
+      risk_rule_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - R1
+          - R2
+          - R3
+          - R4
+      min_score:
+        type: number
+        required: true
+        role: decision_time_or_context
+      max_score:
+        type: number
+        required: true
+        role: decision_time_or_context
+      risk_tier:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - LOW
+          - MEDIUM
+          - HIGH
+          - CRITICAL
+      hitl_required:
+        type: integer
+        required: true
+        role: decision_time_or_context
+        rules:
+          allowed:
+          - 0
+          - 1
+  historical_incidents:
+    purpose: Pre-pilot incidents available to construct the historical H component.
+    record_count_pilot: 80
+    primary_key: historical_incident_id
+    columns:
+      historical_incident_id:
+        type: string
+        required: true
+        role: historical_only
+      fault_code:
+        type: string
+        required: true
+        role: historical_only
+      pipeline_type:
+        type: string
+        required: true
+        role: historical_only
+        rules:
+          observed_values:
+          - ELT
+          - STREAMING
+          - MICRO_BATCH
+          - ETL
+          - BATCH
+      pipeline_criticality:
+        type: string
+        required: true
+        role: historical_only
+        rules:
+          observed_values:
+          - HIGH
+          - CRITICAL
+          - MEDIUM
+          - LOW
+      severity:
+        type: number
+        required: true
+        role: historical_only
+        rules:
+          range:
+          - 0
+          - 1
+      risk_score:
+        type: number
+        required: true
+        role: historical_only
+        rules:
+          range:
+          - 0
+          - 1
+      pipeline_state:
+        type: number
+        required: true
+        role: historical_only
+        rules:
+          range:
+          - 0
+          - 1
+      previous_action:
+        type: string
+        required: true
+        role: historical_only
+        rules:
+          observed_values:
+          - AUTONOMOUS_RECOVERY
+          - ADAPTIVE_REPLANNING
+          - HITL_ESCALATION
+      recovery_success:
+        type: integer
+        required: true
+        role: historical_only
+        rules:
+          allowed:
+          - 0
+          - 1
+      recovery_time_sec:
+        type: integer
+        required: true
+        role: historical_only
+      governance_compliance:
+        type: number
+        required: true
+        role: historical_only
+        rules:
+          range:
+          - 0
+          - 1
+      incident_timestamp:
+        type: datetime
+        required: true
+        role: historical_only
+  pipeline_execution_logs:
+    purpose: Execution-level operational telemetry for pipeline runs.
+    record_count_pilot: 100
+    primary_key: execution_id
+    columns:
+      execution_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+      pipeline_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+      execution_start:
+        type: datetime
+        required: true
+        role: decision_time_or_context
+      execution_status:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - SUCCESS
+      records_processed:
+        type: integer
+        required: true
+        role: decision_time_or_context
+      partitions_processed:
+        type: integer
+        required: true
+        role: decision_time_or_context
+      tasks_total:
+        type: integer
+        required: true
+        role: decision_time_or_context
+      tasks_failed:
+        type: integer
+        required: true
+        role: decision_time_or_context
+      data_quality_score:
+        type: number
+        required: true
+        role: decision_time_or_context
+        rules:
+          range:
+          - 0
+          - 1
+      resource_utilization:
+        type: number
+        required: true
+        role: decision_time_or_context
+        rules:
+          range:
+          - 0
+          - 1
+      execution_end:
+        type: datetime
+        required: true
+        role: decision_time_or_context
+      execution_latency_sec:
+        type: number
+        required: true
+        role: decision_time_or_context
+  governance_policies:
+    purpose: Active governance policy definitions.
+    record_count_pilot: 20
+    primary_key: policy_id
+    columns:
+      policy_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+      policy_category:
+        type: string
+        required: true
+        role: decision_time_or_context
+      condition:
+        type: string
+        required: true
+        role: decision_time_or_context
+      scope:
+        type: string
+        required: true
+        role: decision_time_or_context
+      active_status:
+        type: integer
+        required: true
+        role: decision_time_or_context
+        rules:
+          allowed:
+          - 0
+          - 1
+  quality_audit:
+    purpose: Pilot dataset quality-control checklist/results.
+    record_count_pilot: 40
+    primary_key: check
+    columns:
+      check:
+        type: string
+        required: true
+        role: decision_time_or_context
+      status:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - PASS
+      detail:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - duplicates=0
+          - T0<T1 for every incident
+          - Historical records predate pilot incidents
+          - One aligned fault event per incident
+          - Pilot ground truth uses predefined fault/risk rules only; no GARDM output
+            or future execution result.
+          - '{''DATA_QUALITY'': 25, ''ORCHESTRATION'': 25, ''INFRASTRUCTURE'': 25,
+            ''SCHEMA'': 25}'
+          - '{''LOW'': 37, ''MEDIUM'': 30, ''HIGH'': 21, ''CRITICAL'': 12}'
+          - '{''GARDM'': 100, ''RULE_BASED'': 100, ''MLOPS'': 100}'
+          - Expected 3 approach rows per incident
+          - "Audit completeness stored as 0\u2013100"
+          - All pilot evaluation traces are labelled as development-only in README.
+          - 0 evaluation rows have unresolved experiment_id
+  detection_events:
+    purpose: Detection lifecycle events and detection latency.
+    record_count_pilot: 100
+    primary_key: detection_id
+    columns:
+      detection_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+      incident_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+      failure_timestamp:
+        type: datetime
+        required: true
+        role: decision_time_or_context
+      detection_timestamp:
+        type: datetime
+        required: true
+        role: decision_time_or_context
+      detection_method:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - METRIC_ALERT
+          - LOG_ANOMALY
+          - DEPENDENCY_MONITOR
+          - DQ_ALERT
+      detection_confidence:
+        type: number
+        required: true
+        role: decision_time_or_context
+        rules:
+          range:
+          - 0
+          - 1
+      human_triggered:
+        type: integer
+        required: true
+        role: decision_time_or_context
+        rules:
+          allowed:
+          - 0
+          - 1
+      mttd_seconds:
+        type: integer
+        required: true
+        role: decision_time_or_context
+      detection_success:
+        type: integer
+        required: true
+        role: evaluation_or_ground_truth_only
+        rules:
+          allowed:
+          - 0
+          - 1
+  gardm_decisions:
+    purpose: GARDM feature scores, weights, action scores and selected action.
+    record_count_pilot: 100
+    primary_key: decision_id
+    columns:
+      decision_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+      incident_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+      decision_timestamp:
+        type: datetime
+        required: true
+        role: decision_time_or_context
+      P_score:
+        type: number
+        required: true
+        role: decision_time_or_context
+        rules:
+          range:
+          - 0
+          - 1
+      R_score:
+        type: number
+        required: true
+        role: decision_time_or_context
+        rules:
+          range:
+          - 0
+          - 1
+      S_score:
+        type: number
+        required: true
+        role: decision_time_or_context
+        rules:
+          range:
+          - 0
+          - 1
+      H_score:
+        type: number
+        required: true
+        role: decision_time_or_context
+        rules:
+          range:
+          - 0
+          - 1
+      F_score:
+        type: number
+        required: true
+        role: decision_time_or_context
+        rules:
+          range:
+          - 0
+          - 1
+      w_P:
+        type: number
+        required: true
+        role: decision_time_or_context
+        rules:
+          range:
+          - 0
+          - 1
+      w_R:
+        type: number
+        required: true
+        role: decision_time_or_context
+        rules:
+          range:
+          - 0
+          - 1
+      w_S:
+        type: number
+        required: true
+        role: decision_time_or_context
+        rules:
+          range:
+          - 0
+          - 1
+      w_H:
+        type: number
+        required: true
+        role: decision_time_or_context
+        rules:
+          range:
+          - 0
+          - 1
+      w_F:
+        type: number
+        required: true
+        role: decision_time_or_context
+        rules:
+          range:
+          - 0
+          - 1
+      A1_P:
+        type: number
+        required: true
+        role: decision_time_or_context
+        rules:
+          range:
+          - 0
+          - 1
+      A1_R:
+        type: number
+        required: true
+        role: decision_time_or_context
+        rules:
+          range:
+          - 0
+          - 1
+      A1_S:
+        type: number
+        required: true
+        role: decision_time_or_context
+        rules:
+          range:
+          - 0
+          - 1
+      A1_H:
+        type: number
+        required: true
+        role: decision_time_or_context
+        rules:
+          range:
+          - 0
+          - 1
+      A1_F:
+        type: number
+        required: true
+        role: decision_time_or_context
+        rules:
+          range:
+          - 0
+          - 1
+      A2_P:
+        type: number
+        required: true
+        role: decision_time_or_context
+        rules:
+          range:
+          - 0
+          - 1
+      A2_R:
+        type: number
+        required: true
+        role: decision_time_or_context
+        rules:
+          range:
+          - 0
+          - 1
+      A2_S:
+        type: number
+        required: true
+        role: decision_time_or_context
+        rules:
+          range:
+          - 0
+          - 1
+      A2_H:
+        type: number
+        required: true
+        role: decision_time_or_context
+        rules:
+          range:
+          - 0
+          - 1
+      A2_F:
+        type: number
+        required: true
+        role: decision_time_or_context
+        rules:
+          range:
+          - 0
+          - 1
+      A3_P:
+        type: number
+        required: true
+        role: decision_time_or_context
+        rules:
+          range:
+          - 0
+          - 1
+      A3_R:
+        type: number
+        required: true
+        role: decision_time_or_context
+        rules:
+          range:
+          - 0
+          - 1
+      A3_S:
+        type: number
+        required: true
+        role: decision_time_or_context
+        rules:
+          range:
+          - 0
+          - 1
+      A3_H:
+        type: number
+        required: true
+        role: decision_time_or_context
+        rules:
+          range:
+          - 0
+          - 1
+      A3_F:
+        type: number
+        required: true
+        role: decision_time_or_context
+        rules:
+          range:
+          - 0
+          - 1
+      A1_score:
+        type: number
+        required: true
+        role: decision_time_or_context
+        rules:
+          range:
+          - 0
+          - 1
+      A2_score:
+        type: number
+        required: true
+        role: decision_time_or_context
+        rules:
+          range:
+          - 0
+          - 1
+      A3_score:
+        type: number
+        required: true
+        role: decision_time_or_context
+        rules:
+          range:
+          - 0
+          - 1
+      risk_constraint_triggered:
+        type: integer
+        required: true
+        role: decision_time_or_context
+        rules:
+          allowed:
+          - 0
+          - 1
+      selected_action:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - HITL_ESCALATION
+          - ADAPTIVE_REPLANNING
+          - AUTONOMOUS_RECOVERY
+      decision_confidence:
+        type: number
+        required: true
+        role: decision_time_or_context
+        rules:
+          range:
+          - 0
+          - 1
+      model_version:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - PROVISIONAL-GARDM-V0.3
+      status_note:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - Awaiting expert elicitation and validation calibration
+  diagnosis_events:
+    purpose: Diagnosis outputs produced for incidents.
+    record_count_pilot: 100
+    primary_key: diagnosis_id
+    columns:
+      diagnosis_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+      incident_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+      diagnosis_timestamp:
+        type: datetime
+        required: true
+        role: decision_time_or_context
+      predicted_fault_code:
+        type: string
+        required: true
+        role: decision_time_or_context
+      predicted_severity:
+        type: number
+        required: true
+        role: decision_time_or_context
+      root_cause:
+        type: string
+        required: true
+        role: decision_time_or_context
+      diagnosis_confidence:
+        type: number
+        required: true
+        role: decision_time_or_context
+        rules:
+          range:
+          - 0
+          - 1
+      diagnosis_latency_sec:
+        type: integer
+        required: true
+        role: decision_time_or_context
+      diagnosis_success:
+        type: integer
+        required: true
+        role: evaluation_or_ground_truth_only
+        rules:
+          allowed:
+          - 0
+          - 1
+      diagnosis_explanation:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - Telemetry + execution + data-quality evidence
+  recovery_execution:
+    purpose: Execution traces for recovery approaches/actions.
+    record_count_pilot: 300
+    primary_key: recovery_execution_id
+    columns:
+      recovery_execution_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+      incident_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+      decision_id:
+        type: string
+        required: false
+        role: decision_time_or_context
+      action_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - A3.01
+          - A1.01
+          - A2.01
+      execution_start:
+        type: datetime
+        required: true
+        role: decision_time_or_context
+      execution_end:
+        type: datetime
+        required: true
+        role: decision_time_or_context
+      duration_sec:
+        type: integer
+        required: true
+        role: decision_time_or_context
+      approach:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - GARDM
+          - RULE_BASED
+          - MLOPS
+      approval_required:
+        type: integer
+        required: true
+        role: decision_time_or_context
+        rules:
+          allowed:
+          - 0
+          - 1
+      approval_status:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - APPROVED
+          - REJECTED
+          - NOT_REQUIRED
+      records_affected:
+        type: integer
+        required: true
+        role: decision_time_or_context
+      partitions_affected:
+        type: integer
+        required: true
+        role: decision_time_or_context
+      execution_status:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - SUCCESS
+          - FAILED
+      recovery_success:
+        type: integer
+        required: true
+        role: evaluation_or_ground_truth_only
+        rules:
+          allowed:
+          - 0
+          - 1
+  data_quality_metrics:
+    purpose: Execution-level data-quality metrics.
+    record_count_pilot: 100
+    primary_key: dq_id
+    columns:
+      dq_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+      execution_id:
+        type: string
+        required: true
+        role: decision_time_or_context
+      completeness_score:
+        type: number
+        required: true
+        role: decision_time_or_context
+        rules:
+          range:
+          - 0
+          - 1
+      uniqueness_score:
+        type: number
+        required: true
+        role: decision_time_or_context
+        rules:
+          range:
+          - 0
+          - 1
+      validity_score:
+        type: number
+        required: true
+        role: decision_time_or_context
+        rules:
+          range:
+          - 0
+          - 1
+      consistency_score:
+        type: number
+        required: true
+        role: decision_time_or_context
+        rules:
+          range:
+          - 0
+          - 1
+      referential_integrity_score:
+        type: number
+        required: true
+        role: decision_time_or_context
+        rules:
+          range:
+          - 0
+          - 1
+      overall_dq_score:
+        type: number
+        required: true
+        role: decision_time_or_context
+        rules:
+          range:
+          - 0
+          - 1
+      dq_status:
+        type: string
+        required: true
+        role: decision_time_or_context
+        rules:
+          observed_values:
+          - PASS
+          - WARNING

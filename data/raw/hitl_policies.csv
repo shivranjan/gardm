@@ -1,0 +1,7 @@
+hitl_policy_id,policy_name,condition,enabled
+HITL01,HIGH_RISK,Risk >= 0.60,1
+HITL02,CRITICAL,Critical pipeline,1
+HITL03,REGULATORY,High regulatory relevance + high severity,1
+HITL04,LOW_CONFIDENCE,Diagnosis confidence < 0.70,1
+HITL05,POLICY,Autonomous action violates policy,1
+HITL06,REPEAT_FAIL,Repeated recovery failure,1

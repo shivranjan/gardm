@@ -1,0 +1,350 @@
+table,column,type,required,role,rules
+pipeline_dependencies,dependency_id,string,True,decision_time_or_context,{}
+pipeline_dependencies,pipeline_id,string,True,decision_time_or_context,{}
+pipeline_dependencies,upstream_pipeline_id,string,True,decision_time_or_context,{}
+pipeline_dependencies,dependency_type,string,True,decision_time_or_context,"{""observed_values"": [""TRIGGER"", ""CONTROL"", ""DATA""]}"
+pipeline_dependencies,dependency_criticality,string,True,decision_time_or_context,"{""observed_values"": [""MEDIUM"", ""HIGH"", ""LOW""]}"
+pipeline_dependencies,dependency_order,integer,True,decision_time_or_context,{}
+regulatory_constraints,constraint_id,string,True,decision_time_or_context,"{""observed_values"": [""REG01"", ""REG02"", ""REG03"", ""REG04"", ""REG05"", ""REG06""]}"
+regulatory_constraints,obligation,string,True,decision_time_or_context,"{""observed_values"": [""LINEAGE_REQUIRED"", ""AUDIT_TRAIL_REQUIRED"", ""DATA_INTEGRITY_REQUIRED"", ""TRACEABILITY_REQUIRED"", ""CONTROLLED_CHANGE"", ""GOVERNED_RECOVERY""]}"
+regulatory_constraints,scope,string,True,decision_time_or_context,"{""observed_values"": [""Regulatory pipelines"", ""Recovery decisions"", ""Banking pipelines"", ""Recovery actions"", ""Regulatory transformations"", ""High-risk regulatory operations""]}"
+regulatory_constraints,regulatory_reference,string,True,decision_time_or_context,"{""observed_values"": [""BCBS_239""]}"
+regulatory_constraints,active_status,integer,True,decision_time_or_context,"{""allowed"": [0, 1]}"
+audit_logs,audit_id,string,True,decision_time_or_context,{}
+audit_logs,incident_id,string,True,decision_time_or_context,{}
+audit_logs,event_id,number,False,decision_time_or_context,{}
+audit_logs,actor_type,string,True,decision_time_or_context,"{""observed_values"": [""AGENT"", ""BASELINE""]}"
+audit_logs,actor_id,string,True,decision_time_or_context,"{""observed_values"": [""AG04"", ""RULE_BASED"", ""MLOPS""]}"
+audit_logs,action,string,True,decision_time_or_context,"{""observed_values"": [""RECOVERY_EXECUTION""]}"
+audit_logs,policy_evaluated,string,True,decision_time_or_context,"{""observed_values"": [""POLICY_SET_V03""]}"
+audit_logs,policy_result,string,True,decision_time_or_context,"{""observed_values"": [""PASS"", ""FAIL""]}"
+audit_logs,risk_assessment,number,True,decision_time_or_context,"{""range"": [0, 1]}"
+audit_logs,decision,string,True,decision_time_or_context,"{""observed_values"": [""HITL_ESCALATION"", ""AUTONOMOUS_RECOVERY"", ""ADAPTIVE_REPLANNING""]}"
+audit_logs,justification,string,True,decision_time_or_context,"{""observed_values"": [""Synthetic pilot audit""]}"
+audit_logs,timestamp,datetime,True,decision_time_or_context,{}
+audit_logs,previous_hash,string,True,decision_time_or_context,{}
+audit_logs,current_hash,string,True,decision_time_or_context,{}
+audit_logs,audit_integrity_status,string,True,decision_time_or_context,"{""observed_values"": [""VALID""]}"
+experiment_runs,experiment_id,string,True,decision_time_or_context,{}
+experiment_runs,incident_id,string,True,decision_time_or_context,{}
+experiment_runs,approach,string,True,decision_time_or_context,"{""observed_values"": [""GARDM"", ""RULE_BASED"", ""MLOPS""]}"
+experiment_runs,scenario_id,string,True,decision_time_or_context,{}
+experiment_runs,fault_category,string,True,decision_time_or_context,"{""observed_values"": [""DATA_QUALITY"", ""ORCHESTRATION"", ""INFRASTRUCTURE"", ""SCHEMA""]}"
+experiment_runs,fault_code,string,True,decision_time_or_context,{}
+experiment_runs,pipeline_id,string,True,decision_time_or_context,{}
+experiment_runs,pipeline_criticality,string,True,decision_time_or_context,"{""observed_values"": [""HIGH"", ""MEDIUM"", ""LOW"", ""CRITICAL""]}"
+experiment_runs,run_number,integer,True,decision_time_or_context,{}
+experiment_runs,random_seed,integer,True,decision_time_or_context,{}
+experiment_runs,environment_version,string,True,decision_time_or_context,"{""observed_values"": [""PILOT-V03""]}"
+manifest,table,string,True,decision_time_or_context,{}
+manifest,rows,integer,True,decision_time_or_context,{}
+manifest,columns,integer,True,decision_time_or_context,{}
+candidate_recovery_actions,action_id,string,True,decision_time_or_context,{}
+candidate_recovery_actions,action_class,string,True,decision_time_or_context,"{""observed_values"": [""AUTONOMOUS_RECOVERY"", ""ADAPTIVE_REPLANNING"", ""HITL_ESCALATION""]}"
+candidate_recovery_actions,action_name,string,True,decision_time_or_context,{}
+candidate_recovery_actions,requires_approval,integer,True,decision_time_or_context,"{""allowed"": [0, 1]}"
+candidate_recovery_actions,data_modification,integer,True,decision_time_or_context,"{""allowed"": [0, 1]}"
+candidate_recovery_actions,rollback_capability,integer,True,decision_time_or_context,"{""allowed"": [0, 1]}"
+candidate_recovery_actions,expected_recovery_time_sec,integer,True,decision_time_or_context,{}
+candidate_recovery_actions,active_status,string,True,decision_time_or_context,"{""observed_values"": [""ACTIVE""]}"
+validation_events,validation_id,string,True,decision_time_or_context,{}
+validation_events,incident_id,string,True,decision_time_or_context,{}
+validation_events,recovery_execution_id,string,True,decision_time_or_context,{}
+validation_events,validation_timestamp,datetime,True,decision_time_or_context,{}
+validation_events,service_restored,integer,True,evaluation_or_ground_truth_only,{}
+validation_events,data_integrity_restored,integer,True,evaluation_or_ground_truth_only,{}
+validation_events,data_quality_restored,integer,True,evaluation_or_ground_truth_only,{}
+validation_events,pipeline_state_restored,integer,True,evaluation_or_ground_truth_only,{}
+validation_events,governance_verified,integer,True,evaluation_or_ground_truth_only,{}
+validation_events,audit_record_verified,integer,True,evaluation_or_ground_truth_only,{}
+validation_events,validation_confidence,number,True,decision_time_or_context,"{""range"": [0, 1]}"
+validation_events,validation_status,string,True,evaluation_or_ground_truth_only,"{""observed_values"": [""VERIFIED"", ""FAILED""]}"
+evaluation_results,result_id,string,True,decision_time_or_context,{}
+evaluation_results,experiment_id,string,True,decision_time_or_context,{}
+evaluation_results,incident_id,string,True,decision_time_or_context,{}
+evaluation_results,approach,string,True,decision_time_or_context,"{""observed_values"": [""GARDM"", ""RULE_BASED"", ""MLOPS""]}"
+evaluation_results,predicted_action,string,True,decision_time_or_context,"{""observed_values"": [""HITL_ESCALATION"", ""AUTONOMOUS_RECOVERY"", ""ADAPTIVE_REPLANNING""]}"
+evaluation_results,ground_truth_action,string,True,evaluation_or_ground_truth_only,"{""observed_values"": [""HITL_ESCALATION"", ""AUTONOMOUS_RECOVERY"", ""ADAPTIVE_REPLANNING""]}"
+evaluation_results,action_correct,integer,True,evaluation_or_ground_truth_only,{}
+evaluation_results,detection_success,integer,True,evaluation_or_ground_truth_only,"{""allowed"": [0, 1]}"
+evaluation_results,diagnosis_success,integer,True,evaluation_or_ground_truth_only,"{""allowed"": [0, 1]}"
+evaluation_results,recovery_success,integer,True,evaluation_or_ground_truth_only,"{""allowed"": [0, 1]}"
+evaluation_results,recovery_time_sec,integer,True,decision_time_or_context,{}
+evaluation_results,mttd_sec,integer,True,decision_time_or_context,{}
+evaluation_results,diagnosis_time_sec,integer,True,decision_time_or_context,{}
+evaluation_results,decision_latency_sec,integer,True,decision_time_or_context,{}
+evaluation_results,mttr_sec,integer,True,decision_time_or_context,{}
+evaluation_results,governance_compliance,integer,True,evaluation_or_ground_truth_only,"{""range"": [0, 1]}"
+evaluation_results,risk_tier_correct,integer,True,evaluation_or_ground_truth_only,{}
+evaluation_results,hitl_activated,integer,True,decision_time_or_context,{}
+evaluation_results,approval_latency_sec,integer,True,decision_time_or_context,{}
+evaluation_results,audit_completeness,integer,True,decision_time_or_context,{}
+evaluation_results,operational_reliability,integer,True,decision_time_or_context,{}
+evaluation_results,verified_restoration,integer,True,evaluation_or_ground_truth_only,{}
+evaluation_results,self_healing_success,integer,True,evaluation_or_ground_truth_only,"{""allowed"": [0, 1]}"
+evaluation_results,failure_reason,string,True,decision_time_or_context,"{""observed_values"": [""NONE"", ""EXECUTION_FAILED""]}"
+audit_policies,audit_policy_id,string,True,decision_time_or_context,"{""observed_values"": [""AUD01"", ""AUD02"", ""AUD03"", ""AUD04"", ""AUD05"", ""AUD06""]}"
+audit_policies,policy_name,string,True,decision_time_or_context,"{""observed_values"": [""DECISION"", ""GOVERNANCE"", ""RECOVERY"", ""VALIDATION"", ""HITL"", ""INTEGRITY""]}"
+audit_policies,required_elements,string,True,decision_time_or_context,"{""observed_values"": [""Incident, action, reason, timestamp"", ""Policy and risk checks"", ""Execution outcome"", ""Restoration checks"", ""Approval decision and latency"", ""Hash-chain verification""]}"
+audit_policies,enabled,integer,True,decision_time_or_context,"{""allowed"": [0, 1]}"
+hitl_policies,hitl_policy_id,string,True,decision_time_or_context,"{""observed_values"": [""HITL01"", ""HITL02"", ""HITL03"", ""HITL04"", ""HITL05"", ""HITL06""]}"
+hitl_policies,policy_name,string,True,decision_time_or_context,"{""observed_values"": [""HIGH_RISK"", ""CRITICAL"", ""REGULATORY"", ""LOW_CONFIDENCE"", ""POLICY"", ""REPEAT_FAIL""]}"
+hitl_policies,condition,string,True,decision_time_or_context,"{""observed_values"": [""Risk >= 0.60"", ""Critical pipeline"", ""High regulatory relevance + high severity"", ""Diagnosis confidence < 0.70"", ""Autonomous action violates policy"", ""Repeated recovery failure""]}"
+hitl_policies,enabled,integer,True,decision_time_or_context,"{""allowed"": [0, 1]}"
+incident_context,incident_id,string,True,decision_time_or_context,{}
+incident_context,pipeline_id,string,True,decision_time_or_context,{}
+incident_context,execution_id,string,True,decision_time_or_context,{}
+incident_context,fault_code,string,True,decision_time_or_context,{}
+incident_context,fault_category,string,True,decision_time_or_context,"{""observed_values"": [""DATA_QUALITY"", ""ORCHESTRATION"", ""INFRASTRUCTURE"", ""SCHEMA""]}"
+incident_context,failure_timestamp,datetime,True,decision_time_or_context,{}
+incident_context,detection_timestamp,datetime,True,decision_time_or_context,{}
+incident_context,failure_severity,number,True,decision_time_or_context,"{""range"": [0, 1]}"
+incident_context,operational_risk,number,True,decision_time_or_context,"{""range"": [0, 1]}"
+incident_context,pipeline_state_score,number,True,decision_time_or_context,"{""range"": [0, 1]}"
+incident_context,policy_compliance_score,number,True,decision_time_or_context,"{""range"": [0, 1]}"
+incident_context,historical_similarity_score,number,True,decision_time_or_context,"{""range"": [0, 1]}"
+incident_context,pipeline_criticality,string,True,decision_time_or_context,"{""observed_values"": [""HIGH"", ""MEDIUM"", ""LOW"", ""CRITICAL""]}"
+incident_context,pii_involved,integer,True,decision_time_or_context,"{""allowed"": [0, 1]}"
+incident_context,regulatory_relevance,string,True,decision_time_or_context,"{""observed_values"": [""HIGH"", ""MEDIUM"", ""LOW""]}"
+incident_context,affected_records,integer,True,decision_time_or_context,{}
+incident_context,affected_partitions,integer,True,decision_time_or_context,{}
+incident_context,dependency_count,integer,True,decision_time_or_context,{}
+incident_context,business_impact_score,number,True,decision_time_or_context,"{""range"": [0, 1]}"
+incident_context,sla_breach_risk,number,True,decision_time_or_context,"{""range"": [0, 1]}"
+incident_context,diagnosis_confidence,number,True,decision_time_or_context,"{""range"": [0, 1]}"
+incident_context,root_cause_confidence,number,True,decision_time_or_context,"{""range"": [0, 1]}"
+incident_context,available_recovery_options,string,True,decision_time_or_context,"{""observed_values"": [""A1,A2,A3""]}"
+incident_context,hitl_policy_triggered,integer,True,decision_time_or_context,"{""allowed"": [0, 1]}"
+incident_context,context_timestamp,datetime,True,decision_time_or_context,{}
+hitl_events,hitl_event_id,string,True,decision_time_or_context,{}
+hitl_events,incident_id,string,True,decision_time_or_context,{}
+hitl_events,decision_id,string,False,decision_time_or_context,{}
+hitl_events,trigger_reason,string,True,decision_time_or_context,"{""observed_values"": [""RISK_OR_GOVERNANCE""]}"
+hitl_events,risk_tier,string,True,decision_time_or_context,"{""observed_values"": [""HIGH"", ""CRITICAL""]}"
+hitl_events,requested_timestamp,datetime,True,decision_time_or_context,{}
+hitl_events,response_timestamp,datetime,True,decision_time_or_context,{}
+hitl_events,approval_status,string,True,decision_time_or_context,"{""observed_values"": [""APPROVED"", ""REJECTED""]}"
+hitl_events,approval_latency_sec,integer,True,decision_time_or_context,{}
+hitl_events,reviewer_role,string,True,decision_time_or_context,"{""observed_values"": [""SYNTHETIC_ROLE""]}"
+hitl_events,synthetic_reviewer_id,string,True,decision_time_or_context,"{""observed_values"": [""REV01""]}"
+hitl_events,justification,string,True,decision_time_or_context,"{""observed_values"": [""Pilot governance review""]}"
+hitl_events,fallback_action,string,True,decision_time_or_context,"{""observed_values"": [""CONTINUE"", ""HOLD_PIPELINE""]}"
+customers,customer_id,string,True,decision_time_or_context,{}
+customers,customer_type,string,True,decision_time_or_context,"{""observed_values"": [""INDIVIDUAL"", ""SME""]}"
+customers,customer_segment,string,True,decision_time_or_context,"{""observed_values"": [""RETAIL"", ""MASS_AFFLUENT"", ""PREMIUM"", ""BUSINESS""]}"
+customers,customer_status,string,True,decision_time_or_context,"{""observed_values"": [""ACTIVE"", ""CLOSED"", ""DORMANT""]}"
+customers,country_code,string,True,decision_time_or_context,"{""observed_values"": [""IN""]}"
+customers,risk_class,string,True,decision_time_or_context,"{""observed_values"": [""HIGH"", ""MEDIUM"", ""LOW""]}"
+transactions,transaction_id,string,True,decision_time_or_context,{}
+transactions,account_id,string,True,decision_time_or_context,{}
+transactions,customer_id,string,True,decision_time_or_context,{}
+transactions,transaction_timestamp,datetime,True,decision_time_or_context,{}
+transactions,transaction_type,string,True,decision_time_or_context,"{""observed_values"": [""PAYMENT"", ""DEPOSIT"", ""WITHDRAWAL"", ""TRANSFER"", ""REFUND""]}"
+transactions,amount,number,True,decision_time_or_context,{}
+transactions,currency,string,True,decision_time_or_context,"{""observed_values"": [""INR""]}"
+transactions,merchant_id,string,False,decision_time_or_context,{}
+transactions,channel,string,True,decision_time_or_context,"{""observed_values"": [""BRANCH"", ""ATM"", ""API"", ""MOBILE"", ""POS"", ""WEB""]}"
+transactions,transaction_status,string,True,decision_time_or_context,"{""observed_values"": [""SUCCESS"", ""REVERSED"", ""PENDING"", ""FAILED""]}"
+transactions,is_reversal,integer,True,decision_time_or_context,"{""allowed"": [0, 1]}"
+transactions,is_duplicate,integer,True,decision_time_or_context,"{""allowed"": [0, 1]}"
+transactions,data_quality_flag,string,True,decision_time_or_context,"{""observed_values"": [""VALID""]}"
+ground_truth_decisions,ground_truth_id,string,True,evaluation_or_ground_truth_only,{}
+ground_truth_decisions,incident_id,string,True,evaluation_or_ground_truth_only,{}
+ground_truth_decisions,correct_fault_code,string,True,evaluation_or_ground_truth_only,{}
+ground_truth_decisions,correct_severity,number,True,evaluation_or_ground_truth_only,{}
+ground_truth_decisions,correct_risk_tier,string,True,evaluation_or_ground_truth_only,"{""observed_values"": [""HIGH"", ""LOW"", ""MEDIUM"", ""CRITICAL""]}"
+ground_truth_decisions,permissible_actions,string,True,evaluation_or_ground_truth_only,"{""observed_values"": [""HITL_ESCALATION"", ""AUTONOMOUS_RECOVERY,ADAPTIVE_REPLANNING""]}"
+ground_truth_decisions,optimal_recovery_action,string,True,evaluation_or_ground_truth_only,"{""observed_values"": [""HITL_ESCALATION"", ""AUTONOMOUS_RECOVERY"", ""ADAPTIVE_REPLANNING""]}"
+ground_truth_decisions,hitl_required,integer,True,evaluation_or_ground_truth_only,"{""allowed"": [0, 1]}"
+ground_truth_decisions,expected_recovery_time_sec,integer,True,evaluation_or_ground_truth_only,{}
+ground_truth_decisions,expert_confidence,number,False,evaluation_or_ground_truth_only,{}
+ground_truth_decisions,justification,string,True,evaluation_or_ground_truth_only,"{""observed_values"": [""Independent predefined scenario/risk/governance rule""]}"
+pipeline_metadata,pipeline_id,string,True,decision_time_or_context,{}
+pipeline_metadata,pipeline_name,string,True,decision_time_or_context,{}
+pipeline_metadata,pipeline_type,string,True,decision_time_or_context,"{""observed_values"": [""ETL"", ""BATCH"", ""STREAMING"", ""ELT"", ""MICRO_BATCH""]}"
+pipeline_metadata,business_function,string,True,decision_time_or_context,"{""observed_values"": [""REGULATORY_REPORTING"", ""TRANSACTION_PROCESSING"", ""RISK_ANALYTICS"", ""DATA_WAREHOUSE"", ""AML_ANALYTICS"", ""FRAUD_ANALYTICS""]}"
+pipeline_metadata,processing_mode,string,True,decision_time_or_context,"{""observed_values"": [""MICRO_BATCH"", ""BATCH"", ""STREAMING""]}"
+pipeline_metadata,criticality,string,True,decision_time_or_context,"{""observed_values"": [""LOW"", ""MEDIUM"", ""HIGH"", ""CRITICAL""]}"
+pipeline_metadata,data_sensitivity,string,True,decision_time_or_context,"{""observed_values"": [""CONFIDENTIAL"", ""INTERNAL"", ""RESTRICTED""]}"
+pipeline_metadata,pii_involved,integer,True,decision_time_or_context,"{""allowed"": [0, 1]}"
+pipeline_metadata,regulatory_relevance,string,True,decision_time_or_context,"{""observed_values"": [""HIGH"", ""MEDIUM"", ""LOW""]}"
+pipeline_metadata,sla_minutes,integer,True,decision_time_or_context,{}
+pipeline_metadata,owner_role,string,True,decision_time_or_context,"{""observed_values"": [""DATA_ENGINEERING"", ""ANALYTICS"", ""RISK"", ""COMPLIANCE""]}"
+pipeline_metadata,active_status,string,True,decision_time_or_context,"{""observed_values"": [""ACTIVE""]}"
+governance_evaluations,evaluation_id,string,True,decision_time_or_context,{}
+governance_evaluations,incident_id,string,True,decision_time_or_context,{}
+governance_evaluations,action_class,string,True,decision_time_or_context,"{""observed_values"": [""AUTONOMOUS_RECOVERY"", ""ADAPTIVE_REPLANNING"", ""HITL_ESCALATION""]}"
+governance_evaluations,policy_set_id,string,True,decision_time_or_context,"{""observed_values"": [""POLICY_SET_V03""]}"
+governance_evaluations,policy_result,string,True,decision_time_or_context,"{""observed_values"": [""PASS""]}"
+governance_evaluations,risk_result,string,True,decision_time_or_context,"{""observed_values"": [""FAIL"", ""PASS""]}"
+governance_evaluations,regulatory_result,string,True,decision_time_or_context,"{""observed_values"": [""PASS"", ""FAIL""]}"
+governance_evaluations,criticality_result,string,True,decision_time_or_context,"{""observed_values"": [""PASS"", ""FAIL""]}"
+governance_evaluations,action_allowed,integer,True,decision_time_or_context,{}
+governance_evaluations,evaluation_timestamp,datetime,True,decision_time_or_context,{}
+fault_catalog,fault_code,string,True,decision_time_or_context,{}
+fault_catalog,fault_category,string,True,decision_time_or_context,"{""observed_values"": [""SCHEMA"", ""DATA_QUALITY"", ""INFRASTRUCTURE"", ""ORCHESTRATION""]}"
+fault_catalog,fault_name,string,True,decision_time_or_context,{}
+fault_catalog,fault_mechanism,string,True,decision_time_or_context,"{""observed_values"": [""STRUCTURE_MUTATION"", ""DATA_MUTATION"", ""SERVICE_DISRUPTION"", ""WORKFLOW_MUTATION""]}"
+fault_catalog,severity_default,number,True,decision_time_or_context,{}
+fault_catalog,detectability,number,True,decision_time_or_context,{}
+fault_catalog,recoverability,number,True,decision_time_or_context,{}
+fault_catalog,data_impact,number,True,decision_time_or_context,{}
+fault_catalog,service_impact,number,True,decision_time_or_context,{}
+fault_catalog,governance_relevance,number,True,decision_time_or_context,{}
+fault_catalog,active,integer,True,decision_time_or_context,"{""allowed"": [0, 1]}"
+merchants,merchant_id,string,True,decision_time_or_context,{}
+merchants,merchant_category,string,True,decision_time_or_context,"{""observed_values"": [""TRAVEL"", ""HEALTHCARE"", ""GROCERY"", ""RESTAURANT"", ""UTILITIES"", ""ECOMMERCE""]}"
+merchants,merchant_country,string,True,decision_time_or_context,"{""observed_values"": [""IN"", ""SG"", ""US"", ""GB"", ""AE""]}"
+merchants,merchant_risk,string,True,decision_time_or_context,"{""observed_values"": [""LOW"", ""HIGH"", ""MEDIUM""]}"
+merchants,merchant_status,string,True,decision_time_or_context,"{""observed_values"": [""ACTIVE""]}"
+fault_injection_events,fault_event_id,string,True,decision_time_or_context,{}
+fault_injection_events,incident_id,string,True,decision_time_or_context,{}
+fault_injection_events,pipeline_id,string,True,decision_time_or_context,{}
+fault_injection_events,execution_id,string,True,decision_time_or_context,{}
+fault_injection_events,fault_code,string,True,decision_time_or_context,{}
+fault_injection_events,injection_timestamp,datetime,True,decision_time_or_context,{}
+fault_injection_events,fault_intensity,number,True,decision_time_or_context,{}
+fault_injection_events,affected_records,integer,True,decision_time_or_context,{}
+fault_injection_events,affected_tasks,integer,True,decision_time_or_context,{}
+fault_injection_events,affected_partitions,integer,True,decision_time_or_context,{}
+fault_injection_events,duration_seconds,integer,True,decision_time_or_context,{}
+fault_injection_events,injection_target,string,True,decision_time_or_context,"{""observed_values"": [""INGESTION"", ""TRANSFORMATION"", ""ORCHESTRATION"", ""STORAGE""]}"
+fault_injection_events,injection_success,integer,True,decision_time_or_context,"{""allowed"": [0, 1]}"
+fault_injection_events,seed,integer,True,decision_time_or_context,{}
+fault_injection_events,injection_version,string,True,decision_time_or_context,"{""observed_values"": [""FI-V03""]}"
+accounts,account_id,string,True,decision_time_or_context,{}
+accounts,customer_id,string,True,decision_time_or_context,{}
+accounts,account_type,string,True,decision_time_or_context,"{""observed_values"": [""SAVINGS"", ""CURRENT"", ""LOAN"", ""SALARY""]}"
+accounts,currency,string,True,decision_time_or_context,"{""observed_values"": [""INR""]}"
+accounts,account_status,string,True,decision_time_or_context,"{""observed_values"": [""ACTIVE""]}"
+accounts,balance,number,True,decision_time_or_context,{}
+accounts,account_risk,string,True,decision_time_or_context,"{""observed_values"": [""MEDIUM"", ""LOW"", ""HIGH""]}"
+agent_events,event_id,string,True,decision_time_or_context,{}
+agent_events,incident_id,string,True,decision_time_or_context,{}
+agent_events,agent_id,string,True,decision_time_or_context,"{""observed_values"": [""AG01"", ""AG02"", ""AG03"", ""AG04"", ""AG05""]}"
+agent_events,agent_type,string,True,decision_time_or_context,"{""observed_values"": [""MONITORING"", ""DIAGNOSIS"", ""GOVERNANCE"", ""RECOVERY"", ""VALIDATION""]}"
+agent_events,event_type,string,True,decision_time_or_context,"{""observed_values"": [""FAULT_DETECTED"", ""ROOT_CAUSE_IDENTIFIED"", ""POLICY_EVALUATED"", ""RECOVERY_REQUESTED"", ""RESTORATION_CHECKED""]}"
+agent_events,event_timestamp,datetime,True,decision_time_or_context,{}
+agent_events,source_agent,string,True,decision_time_or_context,"{""observed_values"": [""SYSTEM"", ""AG01"", ""AG02"", ""AG03"", ""AG04""]}"
+agent_events,destination_agent,string,True,decision_time_or_context,"{""observed_values"": [""AG01"", ""AG02"", ""AG03"", ""AG04"", ""AG05""]}"
+agent_events,correlation_id,string,True,decision_time_or_context,{}
+agent_events,payload,string,True,decision_time_or_context,"{""observed_values"": [""{\""synthetic\"": true}""]}"
+agent_events,confidence,number,True,decision_time_or_context,{}
+agent_events,processing_time_ms,integer,True,decision_time_or_context,{}
+agent_events,event_status,string,True,decision_time_or_context,"{""observed_values"": [""SUCCESS""]}"
+agent_events,agent_version,string,True,decision_time_or_context,"{""observed_values"": [""AGENTIC-V03""]}"
+risk_rules,risk_rule_id,string,True,decision_time_or_context,"{""observed_values"": [""R1"", ""R2"", ""R3"", ""R4""]}"
+risk_rules,min_score,number,True,decision_time_or_context,{}
+risk_rules,max_score,number,True,decision_time_or_context,{}
+risk_rules,risk_tier,string,True,decision_time_or_context,"{""observed_values"": [""LOW"", ""MEDIUM"", ""HIGH"", ""CRITICAL""]}"
+risk_rules,hitl_required,integer,True,decision_time_or_context,"{""allowed"": [0, 1]}"
+historical_incidents,historical_incident_id,string,True,historical_only,{}
+historical_incidents,fault_code,string,True,historical_only,{}
+historical_incidents,pipeline_type,string,True,historical_only,"{""observed_values"": [""ELT"", ""STREAMING"", ""MICRO_BATCH"", ""ETL"", ""BATCH""]}"
+historical_incidents,pipeline_criticality,string,True,historical_only,"{""observed_values"": [""HIGH"", ""CRITICAL"", ""MEDIUM"", ""LOW""]}"
+historical_incidents,severity,number,True,historical_only,"{""range"": [0, 1]}"
+historical_incidents,risk_score,number,True,historical_only,"{""range"": [0, 1]}"
+historical_incidents,pipeline_state,number,True,historical_only,"{""range"": [0, 1]}"
+historical_incidents,previous_action,string,True,historical_only,"{""observed_values"": [""AUTONOMOUS_RECOVERY"", ""ADAPTIVE_REPLANNING"", ""HITL_ESCALATION""]}"
+historical_incidents,recovery_success,integer,True,historical_only,"{""allowed"": [0, 1]}"
+historical_incidents,recovery_time_sec,integer,True,historical_only,{}
+historical_incidents,governance_compliance,number,True,historical_only,"{""range"": [0, 1]}"
+historical_incidents,incident_timestamp,datetime,True,historical_only,{}
+pipeline_execution_logs,execution_id,string,True,decision_time_or_context,{}
+pipeline_execution_logs,pipeline_id,string,True,decision_time_or_context,{}
+pipeline_execution_logs,execution_start,datetime,True,decision_time_or_context,{}
+pipeline_execution_logs,execution_status,string,True,decision_time_or_context,"{""observed_values"": [""SUCCESS""]}"
+pipeline_execution_logs,records_processed,integer,True,decision_time_or_context,{}
+pipeline_execution_logs,partitions_processed,integer,True,decision_time_or_context,{}
+pipeline_execution_logs,tasks_total,integer,True,decision_time_or_context,{}
+pipeline_execution_logs,tasks_failed,integer,True,decision_time_or_context,{}
+pipeline_execution_logs,data_quality_score,number,True,decision_time_or_context,"{""range"": [0, 1]}"
+pipeline_execution_logs,resource_utilization,number,True,decision_time_or_context,"{""range"": [0, 1]}"
+pipeline_execution_logs,execution_end,datetime,True,decision_time_or_context,{}
+pipeline_execution_logs,execution_latency_sec,number,True,decision_time_or_context,{}
+governance_policies,policy_id,string,True,decision_time_or_context,{}
+governance_policies,policy_category,string,True,decision_time_or_context,{}
+governance_policies,condition,string,True,decision_time_or_context,{}
+governance_policies,scope,string,True,decision_time_or_context,{}
+governance_policies,active_status,integer,True,decision_time_or_context,"{""allowed"": [0, 1]}"
+quality_audit,check,string,True,decision_time_or_context,{}
+quality_audit,status,string,True,decision_time_or_context,"{""observed_values"": [""PASS""]}"
+quality_audit,detail,string,True,decision_time_or_context,"{""observed_values"": [""duplicates=0"", ""T0<T1 for every incident"", ""Historical records predate pilot incidents"", ""One aligned fault event per incident"", ""Pilot ground truth uses predefined fault/risk rules only; no GARDM output or future execution result."", ""{'DATA_QUALITY': 25, 'ORCHESTRATION': 25, 'INFRASTRUCTURE': 25, 'SCHEMA': 25}"", ""{'LOW': 37, 'MEDIUM': 30, 'HIGH': 21, 'CRITICAL': 12}"", ""{'GARDM': 100, 'RULE_BASED': 100, 'MLOPS': 100}"", ""Expected 3 approach rows per incident"", ""Audit completeness stored as 0–100"", ""All pilot evaluation traces are labelled as development-only in README."", ""0 evaluation rows have unresolved experiment_id""]}"
+detection_events,detection_id,string,True,decision_time_or_context,{}
+detection_events,incident_id,string,True,decision_time_or_context,{}
+detection_events,failure_timestamp,datetime,True,decision_time_or_context,{}
+detection_events,detection_timestamp,datetime,True,decision_time_or_context,{}
+detection_events,detection_method,string,True,decision_time_or_context,"{""observed_values"": [""METRIC_ALERT"", ""LOG_ANOMALY"", ""DEPENDENCY_MONITOR"", ""DQ_ALERT""]}"
+detection_events,detection_confidence,number,True,decision_time_or_context,"{""range"": [0, 1]}"
+detection_events,human_triggered,integer,True,decision_time_or_context,"{""allowed"": [0, 1]}"
+detection_events,mttd_seconds,integer,True,decision_time_or_context,{}
+detection_events,detection_success,integer,True,evaluation_or_ground_truth_only,"{""allowed"": [0, 1]}"
+gardm_decisions,decision_id,string,True,decision_time_or_context,{}
+gardm_decisions,incident_id,string,True,decision_time_or_context,{}
+gardm_decisions,decision_timestamp,datetime,True,decision_time_or_context,{}
+gardm_decisions,P_score,number,True,decision_time_or_context,"{""range"": [0, 1]}"
+gardm_decisions,R_score,number,True,decision_time_or_context,"{""range"": [0, 1]}"
+gardm_decisions,S_score,number,True,decision_time_or_context,"{""range"": [0, 1]}"
+gardm_decisions,H_score,number,True,decision_time_or_context,"{""range"": [0, 1]}"
+gardm_decisions,F_score,number,True,decision_time_or_context,"{""range"": [0, 1]}"
+gardm_decisions,w_P,number,True,decision_time_or_context,"{""range"": [0, 1]}"
+gardm_decisions,w_R,number,True,decision_time_or_context,"{""range"": [0, 1]}"
+gardm_decisions,w_S,number,True,decision_time_or_context,"{""range"": [0, 1]}"
+gardm_decisions,w_H,number,True,decision_time_or_context,"{""range"": [0, 1]}"
+gardm_decisions,w_F,number,True,decision_time_or_context,"{""range"": [0, 1]}"
+gardm_decisions,A1_P,number,True,decision_time_or_context,"{""range"": [0, 1]}"
+gardm_decisions,A1_R,number,True,decision_time_or_context,"{""range"": [0, 1]}"
+gardm_decisions,A1_S,number,True,decision_time_or_context,"{""range"": [0, 1]}"
+gardm_decisions,A1_H,number,True,decision_time_or_context,"{""range"": [0, 1]}"
+gardm_decisions,A1_F,number,True,decision_time_or_context,"{""range"": [0, 1]}"
+gardm_decisions,A2_P,number,True,decision_time_or_context,"{""range"": [0, 1]}"
+gardm_decisions,A2_R,number,True,decision_time_or_context,"{""range"": [0, 1]}"
+gardm_decisions,A2_S,number,True,decision_time_or_context,"{""range"": [0, 1]}"
+gardm_decisions,A2_H,number,True,decision_time_or_context,"{""range"": [0, 1]}"
+gardm_decisions,A2_F,number,True,decision_time_or_context,"{""range"": [0, 1]}"
+gardm_decisions,A3_P,number,True,decision_time_or_context,"{""range"": [0, 1]}"
+gardm_decisions,A3_R,number,True,decision_time_or_context,"{""range"": [0, 1]}"
+gardm_decisions,A3_S,number,True,decision_time_or_context,"{""range"": [0, 1]}"
+gardm_decisions,A3_H,number,True,decision_time_or_context,"{""range"": [0, 1]}"
+gardm_decisions,A3_F,number,True,decision_time_or_context,"{""range"": [0, 1]}"
+gardm_decisions,A1_score,number,True,decision_time_or_context,"{""range"": [0, 1]}"
+gardm_decisions,A2_score,number,True,decision_time_or_context,"{""range"": [0, 1]}"
+gardm_decisions,A3_score,number,True,decision_time_or_context,"{""range"": [0, 1]}"
+gardm_decisions,risk_constraint_triggered,integer,True,decision_time_or_context,"{""allowed"": [0, 1]}"
+gardm_decisions,selected_action,string,True,decision_time_or_context,"{""observed_values"": [""HITL_ESCALATION"", ""ADAPTIVE_REPLANNING"", ""AUTONOMOUS_RECOVERY""]}"
+gardm_decisions,decision_confidence,number,True,decision_time_or_context,"{""range"": [0, 1]}"
+gardm_decisions,model_version,string,True,decision_time_or_context,"{""observed_values"": [""PROVISIONAL-GARDM-V0.3""]}"
+gardm_decisions,status_note,string,True,decision_time_or_context,"{""observed_values"": [""Awaiting expert elicitation and validation calibration""]}"
+diagnosis_events,diagnosis_id,string,True,decision_time_or_context,{}
+diagnosis_events,incident_id,string,True,decision_time_or_context,{}
+diagnosis_events,diagnosis_timestamp,datetime,True,decision_time_or_context,{}
+diagnosis_events,predicted_fault_code,string,True,decision_time_or_context,{}
+diagnosis_events,predicted_severity,number,True,decision_time_or_context,{}
+diagnosis_events,root_cause,string,True,decision_time_or_context,{}
+diagnosis_events,diagnosis_confidence,number,True,decision_time_or_context,"{""range"": [0, 1]}"
+diagnosis_events,diagnosis_latency_sec,integer,True,decision_time_or_context,{}
+diagnosis_events,diagnosis_success,integer,True,evaluation_or_ground_truth_only,"{""allowed"": [0, 1]}"
+diagnosis_events,diagnosis_explanation,string,True,decision_time_or_context,"{""observed_values"": [""Telemetry + execution + data-quality evidence""]}"
+recovery_execution,recovery_execution_id,string,True,decision_time_or_context,{}
+recovery_execution,incident_id,string,True,decision_time_or_context,{}
+recovery_execution,decision_id,string,False,decision_time_or_context,{}
+recovery_execution,action_id,string,True,decision_time_or_context,"{""observed_values"": [""A3.01"", ""A1.01"", ""A2.01""]}"
+recovery_execution,execution_start,datetime,True,decision_time_or_context,{}
+recovery_execution,execution_end,datetime,True,decision_time_or_context,{}
+recovery_execution,duration_sec,integer,True,decision_time_or_context,{}
+recovery_execution,approach,string,True,decision_time_or_context,"{""observed_values"": [""GARDM"", ""RULE_BASED"", ""MLOPS""]}"
+recovery_execution,approval_required,integer,True,decision_time_or_context,"{""allowed"": [0, 1]}"
+recovery_execution,approval_status,string,True,decision_time_or_context,"{""observed_values"": [""APPROVED"", ""REJECTED"", ""NOT_REQUIRED""]}"
+recovery_execution,records_affected,integer,True,decision_time_or_context,{}
+recovery_execution,partitions_affected,integer,True,decision_time_or_context,{}
+recovery_execution,execution_status,string,True,decision_time_or_context,"{""observed_values"": [""SUCCESS"", ""FAILED""]}"
+recovery_execution,recovery_success,integer,True,evaluation_or_ground_truth_only,"{""allowed"": [0, 1]}"
+data_quality_metrics,dq_id,string,True,decision_time_or_context,{}
+data_quality_metrics,execution_id,string,True,decision_time_or_context,{}
+data_quality_metrics,completeness_score,number,True,decision_time_or_context,"{""range"": [0, 1]}"
+data_quality_metrics,uniqueness_score,number,True,decision_time_or_context,"{""range"": [0, 1]}"
+data_quality_metrics,validity_score,number,True,decision_time_or_context,"{""range"": [0, 1]}"
+data_quality_metrics,consistency_score,number,True,decision_time_or_context,"{""range"": [0, 1]}"
+data_quality_metrics,referential_integrity_score,number,True,decision_time_or_context,"{""range"": [0, 1]}"
+data_quality_metrics,overall_dq_score,number,True,decision_time_or_context,"{""range"": [0, 1]}"
+data_quality_metrics,dq_status,string,True,decision_time_or_context,"{""observed_values"": [""PASS"", ""WARNING""]}"

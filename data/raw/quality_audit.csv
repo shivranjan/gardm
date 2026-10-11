@@ -1,0 +1,41 @@
+check,status,detail
+PK_customers,PASS,duplicates=0
+PK_accounts,PASS,duplicates=0
+PK_transactions,PASS,duplicates=0
+PK_merchants,PASS,duplicates=0
+PK_pipeline_metadata,PASS,duplicates=0
+PK_pipeline_dependencies,PASS,duplicates=0
+PK_pipeline_execution_logs,PASS,duplicates=0
+PK_data_quality_metrics,PASS,duplicates=0
+PK_fault_catalog,PASS,duplicates=0
+PK_fault_injection_events,PASS,duplicates=0
+PK_incident_context,PASS,duplicates=0
+PK_ground_truth_decisions,PASS,duplicates=0
+PK_governance_policies,PASS,duplicates=0
+PK_risk_rules,PASS,duplicates=0
+PK_regulatory_constraints,PASS,duplicates=0
+PK_hitl_policies,PASS,duplicates=0
+PK_audit_policies,PASS,duplicates=0
+PK_candidate_recovery_actions,PASS,duplicates=0
+PK_historical_incidents,PASS,duplicates=0
+PK_gardm_decisions,PASS,duplicates=0
+PK_agent_events,PASS,duplicates=0
+PK_detection_events,PASS,duplicates=0
+PK_diagnosis_events,PASS,duplicates=0
+PK_recovery_execution,PASS,duplicates=0
+PK_hitl_events,PASS,duplicates=0
+PK_validation_events,PASS,duplicates=0
+PK_audit_logs,PASS,duplicates=0
+PK_experiment_runs,PASS,duplicates=0
+PK_evaluation_results,PASS,duplicates=0
+Temporal order,PASS,T0<T1 for every incident
+Historical separation,PASS,Historical records predate pilot incidents
+Fault injection alignment,PASS,One aligned fault event per incident
+Ground-truth independence,PASS,Pilot ground truth uses predefined fault/risk rules only; no GARDM output or future execution result.
+Four fault families,PASS,"{'DATA_QUALITY': 25, 'ORCHESTRATION': 25, 'INFRASTRUCTURE': 25, 'SCHEMA': 25}"
+Four risk tiers,PASS,"{'LOW': 37, 'MEDIUM': 30, 'HIGH': 21, 'CRITICAL': 12}"
+Three approach results,PASS,"{'GARDM': 100, 'RULE_BASED': 100, 'MLOPS': 100}"
+Three results per incident,PASS,Expected 3 approach rows per incident
+Audit percentage scale,PASS,Audit completeness stored as 0–100
+No final empirical claim,PASS,All pilot evaluation traces are labelled as development-only in README.
+Experiment-run FK integrity,PASS,0 evaluation rows have unresolved experiment_id

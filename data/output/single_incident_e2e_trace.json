@@ -1,0 +1,2376 @@
+{
+  "trace_version": "E2E-v1.0.0",
+  "incident_id": "INC001",
+  "purpose": "Single-incident integration and causal-separation test",
+  "decision_time_inputs": {
+    "context": {
+      "incident_id": "INC001",
+      "context_version": "1.0.0",
+      "incident": {
+        "incident_id": "INC001",
+        "pipeline_id": "P25",
+        "execution_id": "EX041",
+        "fault_code": "DQ05",
+        "fault_category": "DATA_QUALITY",
+        "failure_timestamp": "2026-08-27 01:28:45",
+        "detection_timestamp": "2026-08-27 01:30:34",
+        "failure_severity": 0.475,
+        "operational_risk": 0.637,
+        "pipeline_state_score": 0.678,
+        "policy_compliance_score": 0.162,
+        "historical_similarity_score": 0.288,
+        "pipeline_criticality": "HIGH",
+        "pii_involved": 1,
+        "regulatory_relevance": "HIGH",
+        "affected_records": 9694,
+        "affected_partitions": 2,
+        "dependency_count": 2,
+        "business_impact_score": 0.556,
+        "sla_breach_risk": 0.588,
+        "diagnosis_confidence": 0.87,
+        "root_cause_confidence": 0.945,
+        "available_recovery_options": "A1,A2,A3",
+        "hitl_policy_triggered": 1,
+        "context_timestamp": "2026-08-27 01:30:35"
+      },
+      "pipeline": {
+        "pipeline_id": "P25",
+        "pipeline_name": "BankingPipeline_25",
+        "pipeline_type": "ELT",
+        "business_function": "RISK_ANALYTICS",
+        "processing_mode": "STREAMING",
+        "criticality": "HIGH",
+        "data_sensitivity": "CONFIDENTIAL",
+        "pii_involved": 1,
+        "regulatory_relevance": "HIGH",
+        "sla_minutes": 30,
+        "owner_role": "RISK",
+        "active_status": "ACTIVE"
+      },
+      "fault": {
+        "fault_code": "DQ05",
+        "fault_category": "DATA_QUALITY",
+        "fault_name": "Referential integrity failure",
+        "fault_mechanism": "DATA_MUTATION",
+        "severity_default": 0.65,
+        "detectability": 0.91,
+        "recoverability": 0.47,
+        "data_impact": 0.46,
+        "service_impact": 0.93,
+        "governance_relevance": 0.5,
+        "active": 1
+      },
+      "injection": {
+        "fault_event_id": "FE001",
+        "incident_id": "INC001",
+        "pipeline_id": "P25",
+        "execution_id": "EX041",
+        "fault_code": "DQ05",
+        "injection_timestamp": "2026-08-27 01:28:45",
+        "fault_intensity": 0.257,
+        "affected_records": 9694,
+        "affected_tasks": 7,
+        "affected_partitions": 2,
+        "duration_seconds": 894,
+        "injection_target": "INGESTION",
+        "injection_success": 1,
+        "seed": 714576,
+        "injection_version": "FI-V03"
+      },
+      "detection": {
+        "detection_id": "DET001",
+        "incident_id": "INC001",
+        "failure_timestamp": "2026-08-27 01:28:45",
+        "detection_timestamp": "2026-08-27 01:30:34",
+        "detection_method": "METRIC_ALERT",
+        "detection_confidence": 0.867,
+        "human_triggered": 0,
+        "mttd_seconds": 109
+      },
+      "historical": [
+        {
+          "historical_incident_id": "HINC001",
+          "fault_code": "INF04",
+          "pipeline_type": "ELT",
+          "pipeline_criticality": "HIGH",
+          "severity": 0.794,
+          "risk_score": 0.112,
+          "pipeline_state": 0.527,
+          "previous_action": "AUTONOMOUS_RECOVERY",
+          "recovery_time_sec": 333,
+          "governance_compliance": 0.947,
+          "incident_timestamp": "2025-03-03"
+        },
+        {
+          "historical_incident_id": "HINC002",
+          "fault_code": "INF01",
+          "pipeline_type": "STREAMING",
+          "pipeline_criticality": "HIGH",
+          "severity": 0.181,
+          "risk_score": 0.766,
+          "pipeline_state": 0.762,
+          "previous_action": "ADAPTIVE_REPLANNING",
+          "recovery_time_sec": 229,
+          "governance_compliance": 0.945,
+          "incident_timestamp": "2025-11-13"
+        },
+        {
+          "historical_incident_id": "HINC003",
+          "fault_code": "DQ06",
+          "pipeline_type": "ELT",
+          "pipeline_criticality": "HIGH",
+          "severity": 0.609,
+          "risk_score": 0.737,
+          "pipeline_state": 0.619,
+          "previous_action": "ADAPTIVE_REPLANNING",
+          "recovery_time_sec": 99,
+          "governance_compliance": 0.983,
+          "incident_timestamp": "2025-01-17"
+        },
+        {
+          "historical_incident_id": "HINC004",
+          "fault_code": "DQ07",
+          "pipeline_type": "MICRO_BATCH",
+          "pipeline_criticality": "HIGH",
+          "severity": 0.462,
+          "risk_score": 0.482,
+          "pipeline_state": 0.865,
+          "previous_action": "ADAPTIVE_REPLANNING",
+          "recovery_time_sec": 371,
+          "governance_compliance": 0.902,
+          "incident_timestamp": "2025-11-06"
+        },
+        {
+          "historical_incident_id": "HINC005",
+          "fault_code": "ORC05",
+          "pipeline_type": "ETL",
+          "pipeline_criticality": "CRITICAL",
+          "severity": 0.835,
+          "risk_score": 0.141,
+          "pipeline_state": 0.485,
+          "previous_action": "ADAPTIVE_REPLANNING",
+          "recovery_time_sec": 111,
+          "governance_compliance": 0.942,
+          "incident_timestamp": "2025-07-24"
+        },
+        {
+          "historical_incident_id": "HINC006",
+          "fault_code": "SCH06",
+          "pipeline_type": "STREAMING",
+          "pipeline_criticality": "HIGH",
+          "severity": 0.851,
+          "risk_score": 0.498,
+          "pipeline_state": 0.31,
+          "previous_action": "ADAPTIVE_REPLANNING",
+          "recovery_time_sec": 258,
+          "governance_compliance": 0.966,
+          "incident_timestamp": "2026-04-30"
+        },
+        {
+          "historical_incident_id": "HINC007",
+          "fault_code": "DQ01",
+          "pipeline_type": "ETL",
+          "pipeline_criticality": "MEDIUM",
+          "severity": 0.128,
+          "risk_score": 0.261,
+          "pipeline_state": 0.509,
+          "previous_action": "ADAPTIVE_REPLANNING",
+          "recovery_time_sec": 217,
+          "governance_compliance": 0.9,
+          "incident_timestamp": "2026-01-31"
+        },
+        {
+          "historical_incident_id": "HINC008",
+          "fault_code": "ORC02",
+          "pipeline_type": "ELT",
+          "pipeline_criticality": "HIGH",
+          "severity": 0.31,
+          "risk_score": 0.748,
+          "pipeline_state": 0.57,
+          "previous_action": "AUTONOMOUS_RECOVERY",
+          "recovery_time_sec": 183,
+          "governance_compliance": 0.995,
+          "incident_timestamp": "2025-09-21"
+        },
+        {
+          "historical_incident_id": "HINC009",
+          "fault_code": "SCH02",
+          "pipeline_type": "BATCH",
+          "pipeline_criticality": "HIGH",
+          "severity": 0.575,
+          "risk_score": 0.674,
+          "pipeline_state": 0.375,
+          "previous_action": "AUTONOMOUS_RECOVERY",
+          "recovery_time_sec": 534,
+          "governance_compliance": 0.94,
+          "incident_timestamp": "2026-01-21"
+        },
+        {
+          "historical_incident_id": "HINC010",
+          "fault_code": "INF06",
+          "pipeline_type": "STREAMING",
+          "pipeline_criticality": "CRITICAL",
+          "severity": 0.147,
+          "risk_score": 0.781,
+          "pipeline_state": 0.73,
+          "previous_action": "AUTONOMOUS_RECOVERY",
+          "recovery_time_sec": 435,
+          "governance_compliance": 0.995,
+          "incident_timestamp": "2026-02-23"
+        },
+        {
+          "historical_incident_id": "HINC011",
+          "fault_code": "INF05",
+          "pipeline_type": "ETL",
+          "pipeline_criticality": "MEDIUM",
+          "severity": 0.575,
+          "risk_score": 0.609,
+          "pipeline_state": 0.638,
+          "previous_action": "AUTONOMOUS_RECOVERY",
+          "recovery_time_sec": 445,
+          "governance_compliance": 0.947,
+          "incident_timestamp": "2025-02-05"
+        },
+        {
+          "historical_incident_id": "HINC012",
+          "fault_code": "ORC07",
+          "pipeline_type": "MICRO_BATCH",
+          "pipeline_criticality": "CRITICAL",
+          "severity": 0.424,
+          "risk_score": 0.167,
+          "pipeline_state": 0.336,
+          "previous_action": "ADAPTIVE_REPLANNING",
+          "recovery_time_sec": 496,
+          "governance_compliance": 0.93,
+          "incident_timestamp": "2025-05-03"
+        },
+        {
+          "historical_incident_id": "HINC013",
+          "fault_code": "INF03",
+          "pipeline_type": "STREAMING",
+          "pipeline_criticality": "LOW",
+          "severity": 0.248,
+          "risk_score": 0.69,
+          "pipeline_state": 0.505,
+          "previous_action": "AUTONOMOUS_RECOVERY",
+          "recovery_time_sec": 432,
+          "governance_compliance": 0.97,
+          "incident_timestamp": "2026-01-12"
+        },
+        {
+          "historical_incident_id": "HINC014",
+          "fault_code": "INF02",
+          "pipeline_type": "ETL",
+          "pipeline_criticality": "HIGH",
+          "severity": 0.393,
+          "risk_score": 0.28,
+          "pipeline_state": 0.896,
+          "previous_action": "AUTONOMOUS_RECOVERY",
+          "recovery_time_sec": 337,
+          "governance_compliance": 0.967,
+          "incident_timestamp": "2026-02-12"
+        },
+        {
+          "historical_incident_id": "HINC015",
+          "fault_code": "DQ04",
+          "pipeline_type": "MICRO_BATCH",
+          "pipeline_criticality": "CRITICAL",
+          "severity": 0.386,
+          "risk_score": 0.372,
+          "pipeline_state": 0.342,
+          "previous_action": "ADAPTIVE_REPLANNING",
+          "recovery_time_sec": 411,
+          "governance_compliance": 0.928,
+          "incident_timestamp": "2026-03-09"
+        },
+        {
+          "historical_incident_id": "HINC016",
+          "fault_code": "DQ06",
+          "pipeline_type": "MICRO_BATCH",
+          "pipeline_criticality": "CRITICAL",
+          "severity": 0.9,
+          "risk_score": 0.567,
+          "pipeline_state": 0.924,
+          "previous_action": "HITL_ESCALATION",
+          "recovery_time_sec": 106,
+          "governance_compliance": 0.936,
+          "incident_timestamp": "2026-01-18"
+        },
+        {
+          "historical_incident_id": "HINC017",
+          "fault_code": "ORC01",
+          "pipeline_type": "ELT",
+          "pipeline_criticality": "CRITICAL",
+          "severity": 0.452,
+          "risk_score": 0.802,
+          "pipeline_state": 0.605,
+          "previous_action": "ADAPTIVE_REPLANNING",
+          "recovery_time_sec": 289,
+          "governance_compliance": 0.943,
+          "incident_timestamp": "2025-12-13"
+        },
+        {
+          "historical_incident_id": "HINC018",
+          "fault_code": "INF05",
+          "pipeline_type": "BATCH",
+          "pipeline_criticality": "LOW",
+          "severity": 0.165,
+          "risk_score": 0.44,
+          "pipeline_state": 0.675,
+          "previous_action": "ADAPTIVE_REPLANNING",
+          "recovery_time_sec": 486,
+          "governance_compliance": 0.929,
+          "incident_timestamp": "2026-02-23"
+        },
+        {
+          "historical_incident_id": "HINC019",
+          "fault_code": "DQ07",
+          "pipeline_type": "STREAMING",
+          "pipeline_criticality": "MEDIUM",
+          "severity": 0.857,
+          "risk_score": 0.189,
+          "pipeline_state": 0.333,
+          "previous_action": "AUTONOMOUS_RECOVERY",
+          "recovery_time_sec": 586,
+          "governance_compliance": 0.963,
+          "incident_timestamp": "2025-01-31"
+        },
+        {
+          "historical_incident_id": "HINC020",
+          "fault_code": "SCH01",
+          "pipeline_type": "ETL",
+          "pipeline_criticality": "LOW",
+          "severity": 0.224,
+          "risk_score": 0.333,
+          "pipeline_state": 0.992,
+          "previous_action": "AUTONOMOUS_RECOVERY",
+          "recovery_time_sec": 364,
+          "governance_compliance": 0.931,
+          "incident_timestamp": "2026-04-19"
+        },
+        {
+          "historical_incident_id": "HINC021",
+          "fault_code": "INF03",
+          "pipeline_type": "ETL",
+          "pipeline_criticality": "MEDIUM",
+          "severity": 0.296,
+          "risk_score": 0.648,
+          "pipeline_state": 0.72,
+          "previous_action": "ADAPTIVE_REPLANNING",
+          "recovery_time_sec": 401,
+          "governance_compliance": 0.921,
+          "incident_timestamp": "2025-07-28"
+        },
+        {
+          "historical_incident_id": "HINC022",
+          "fault_code": "DQ01",
+          "pipeline_type": "BATCH",
+          "pipeline_criticality": "LOW",
+          "severity": 0.34,
+          "risk_score": 0.689,
+          "pipeline_state": 0.668,
+          "previous_action": "ADAPTIVE_REPLANNING",
+          "recovery_time_sec": 476,
+          "governance_compliance": 0.925,
+          "incident_timestamp": "2025-06-13"
+        },
+        {
+          "historical_incident_id": "HINC023",
+          "fault_code": "ORC04",
+          "pipeline_type": "STREAMING",
+          "pipeline_criticality": "MEDIUM",
+          "severity": 0.327,
+          "risk_score": 0.835,
+          "pipeline_state": 0.401,
+          "previous_action": "HITL_ESCALATION",
+          "recovery_time_sec": 95,
+          "governance_compliance": 0.954,
+          "incident_timestamp": "2025-05-30"
+        },
+        {
+          "historical_incident_id": "HINC024",
+          "fault_code": "INF04",
+          "pipeline_type": "STREAMING",
+          "pipeline_criticality": "LOW",
+          "severity": 0.657,
+          "risk_score": 0.574,
+          "pipeline_state": 0.361,
+          "previous_action": "AUTONOMOUS_RECOVERY",
+          "recovery_time_sec": 267,
+          "governance_compliance": 0.931,
+          "incident_timestamp": "2026-01-11"
+        },
+        {
+          "historical_incident_id": "HINC025",
+          "fault_code": "SCH01",
+          "pipeline_type": "ETL",
+          "pipeline_criticality": "LOW",
+          "severity": 0.709,
+          "risk_score": 0.607,
+          "pipeline_state": 0.339,
+          "previous_action": "HITL_ESCALATION",
+          "recovery_time_sec": 324,
+          "governance_compliance": 0.959,
+          "incident_timestamp": "2025-05-21"
+        },
+        {
+          "historical_incident_id": "HINC026",
+          "fault_code": "INF06",
+          "pipeline_type": "MICRO_BATCH",
+          "pipeline_criticality": "CRITICAL",
+          "severity": 0.869,
+          "risk_score": 0.223,
+          "pipeline_state": 0.523,
+          "previous_action": "ADAPTIVE_REPLANNING",
+          "recovery_time_sec": 544,
+          "governance_compliance": 0.91,
+          "incident_timestamp": "2026-01-08"
+        },
+        {
+          "historical_incident_id": "HINC027",
+          "fault_code": "SCH02",
+          "pipeline_type": "ELT",
+          "pipeline_criticality": "MEDIUM",
+          "severity": 0.664,
+          "risk_score": 0.792,
+          "pipeline_state": 0.678,
+          "previous_action": "HITL_ESCALATION",
+          "recovery_time_sec": 596,
+          "governance_compliance": 0.932,
+          "incident_timestamp": "2026-03-17"
+        },
+        {
+          "historical_incident_id": "HINC028",
+          "fault_code": "INF05",
+          "pipeline_type": "BATCH",
+          "pipeline_criticality": "LOW",
+          "severity": 0.206,
+          "risk_score": 0.347,
+          "pipeline_state": 0.564,
+          "previous_action": "ADAPTIVE_REPLANNING",
+          "recovery_time_sec": 290,
+          "governance_compliance": 0.941,
+          "incident_timestamp": "2025-04-06"
+        },
+        {
+          "historical_incident_id": "HINC029",
+          "fault_code": "SCH04",
+          "pipeline_type": "BATCH",
+          "pipeline_criticality": "LOW",
+          "severity": 0.621,
+          "risk_score": 0.8,
+          "pipeline_state": 0.908,
+          "previous_action": "AUTONOMOUS_RECOVERY",
+          "recovery_time_sec": 445,
+          "governance_compliance": 0.953,
+          "incident_timestamp": "2026-05-04"
+        },
+        {
+          "historical_incident_id": "HINC030",
+          "fault_code": "ORC02",
+          "pipeline_type": "STREAMING",
+          "pipeline_criticality": "HIGH",
+          "severity": 0.895,
+          "risk_score": 0.785,
+          "pipeline_state": 0.914,
+          "previous_action": "AUTONOMOUS_RECOVERY",
+          "recovery_time_sec": 592,
+          "governance_compliance": 0.907,
+          "incident_timestamp": "2026-04-28"
+        },
+        {
+          "historical_incident_id": "HINC031",
+          "fault_code": "INF02",
+          "pipeline_type": "ELT",
+          "pipeline_criticality": "MEDIUM",
+          "severity": 0.535,
+          "risk_score": 0.629,
+          "pipeline_state": 0.313,
+          "previous_action": "AUTONOMOUS_RECOVERY",
+          "recovery_time_sec": 344,
+          "governance_compliance": 0.976,
+          "incident_timestamp": "2025-02-09"
+        },
+        {
+          "historical_incident_id": "HINC032",
+          "fault_code": "DQ05",
+          "pipeline_type": "ETL",
+          "pipeline_criticality": "MEDIUM",
+          "severity": 0.862,
+          "risk_score": 0.232,
+          "pipeline_state": 0.669,
+          "previous_action": "ADAPTIVE_REPLANNING",
+          "recovery_time_sec": 424,
+          "governance_compliance": 0.911,
+          "incident_timestamp": "2026-01-20"
+        },
+        {
+          "historical_incident_id": "HINC033",
+          "fault_code": "ORC03",
+          "pipeline_type": "ETL",
+          "pipeline_criticality": "CRITICAL",
+          "severity": 0.616,
+          "risk_score": 0.236,
+          "pipeline_state": 0.848,
+          "previous_action": "AUTONOMOUS_RECOVERY",
+          "recovery_time_sec": 292,
+          "governance_compliance": 0.994,
+          "incident_timestamp": "2025-09-11"
+        },
+        {
+          "historical_incident_id": "HINC034",
+          "fault_code": "DQ03",
+          "pipeline_type": "BATCH",
+          "pipeline_criticality": "HIGH",
+          "severity": 0.453,
+          "risk_score": 0.523,
+          "pipeline_state": 0.203,
+          "previous_action": "AUTONOMOUS_RECOVERY",
+          "recovery_time_sec": 299,
+          "governance_compliance": 0.994,
+          "incident_timestamp": "2026-04-19"
+        },
+        {
+          "historical_incident_id": "HINC035",
+          "fault_code": "INF03",
+          "pipeline_type": "MICRO_BATCH",
+          "pipeline_criticality": "LOW",
+          "severity": 0.874,
+          "risk_score": 0.861,
+          "pipeline_state": 0.981,
+          "previous_action": "ADAPTIVE_REPLANNING",
+          "recovery_time_sec": 141,
+          "governance_compliance": 0.917,
+          "incident_timestamp": "2025-07-21"
+        },
+        {
+          "historical_incident_id": "HINC036",
+          "fault_code": "DQ05",
+          "pipeline_type": "STREAMING",
+          "pipeline_criticality": "MEDIUM",
+          "severity": 0.515,
+          "risk_score": 0.401,
+          "pipeline_state": 0.638,
+          "previous_action": "AUTONOMOUS_RECOVERY",
+          "recovery_time_sec": 74,
+          "governance_compliance": 0.929,
+          "incident_timestamp": "2026-02-02"
+        },
+        {
+          "historical_incident_id": "HINC037",
+          "fault_code": "DQ04",
+          "pipeline_type": "ETL",
+          "pipeline_criticality": "LOW",
+          "severity": 0.895,
+          "risk_score": 0.721,
+          "pipeline_state": 0.848,
+          "previous_action": "HITL_ESCALATION",
+          "recovery_time_sec": 443,
+          "governance_compliance": 0.985,
+          "incident_timestamp": "2025-08-02"
+        },
+        {
+          "historical_incident_id": "HINC038",
+          "fault_code": "DQ02",
+          "pipeline_type": "STREAMING",
+          "pipeline_criticality": "HIGH",
+          "severity": 0.125,
+          "risk_score": 0.725,
+          "pipeline_state": 0.755,
+          "previous_action": "ADAPTIVE_REPLANNING",
+          "recovery_time_sec": 83,
+          "governance_compliance": 0.961,
+          "incident_timestamp": "2025-05-07"
+        },
+        {
+          "historical_incident_id": "HINC039",
+          "fault_code": "INF06",
+          "pipeline_type": "STREAMING",
+          "pipeline_criticality": "CRITICAL",
+          "severity": 0.774,
+          "risk_score": 0.731,
+          "pipeline_state": 0.97,
+          "previous_action": "AUTONOMOUS_RECOVERY",
+          "recovery_time_sec": 474,
+          "governance_compliance": 0.978,
+          "incident_timestamp": "2025-09-09"
+        },
+        {
+          "historical_incident_id": "HINC040",
+          "fault_code": "SCH01",
+          "pipeline_type": "MICRO_BATCH",
+          "pipeline_criticality": "LOW",
+          "severity": 0.291,
+          "risk_score": 0.853,
+          "pipeline_state": 0.497,
+          "previous_action": "HITL_ESCALATION",
+          "recovery_time_sec": 425,
+          "governance_compliance": 0.938,
+          "incident_timestamp": "2025-04-06"
+        },
+        {
+          "historical_incident_id": "HINC041",
+          "fault_code": "ORC03",
+          "pipeline_type": "ELT",
+          "pipeline_criticality": "CRITICAL",
+          "severity": 0.749,
+          "risk_score": 0.625,
+          "pipeline_state": 0.916,
+          "previous_action": "AUTONOMOUS_RECOVERY",
+          "recovery_time_sec": 120,
+          "governance_compliance": 0.933,
+          "incident_timestamp": "2025-01-14"
+        },
+        {
+          "historical_incident_id": "HINC042",
+          "fault_code": "SCH06",
+          "pipeline_type": "STREAMING",
+          "pipeline_criticality": "HIGH",
+          "severity": 0.125,
+          "risk_score": 0.694,
+          "pipeline_state": 0.693,
+          "previous_action": "HITL_ESCALATION",
+          "recovery_time_sec": 303,
+          "governance_compliance": 0.991,
+          "incident_timestamp": "2026-04-13"
+        },
+        {
+          "historical_incident_id": "HINC043",
+          "fault_code": "SCH06",
+          "pipeline_type": "MICRO_BATCH",
+          "pipeline_criticality": "CRITICAL",
+          "severity": 0.3,
+          "risk_score": 0.514,
+          "pipeline_state": 0.78,
+          "previous_action": "ADAPTIVE_REPLANNING",
+          "recovery_time_sec": 62,
+          "governance_compliance": 0.924,
+          "incident_timestamp": "2025-10-15"
+        },
+        {
+          "historical_incident_id": "HINC044",
+          "fault_code": "INF05",
+          "pipeline_type": "STREAMING",
+          "pipeline_criticality": "CRITICAL",
+          "severity": 0.161,
+          "risk_score": 0.791,
+          "pipeline_state": 0.279,
+          "previous_action": "AUTONOMOUS_RECOVERY",
+          "recovery_time_sec": 225,
+          "governance_compliance": 0.945,
+          "incident_timestamp": "2026-05-05"
+        },
+        {
+          "historical_incident_id": "HINC045",
+          "fault_code": "ORC02",
+          "pipeline_type": "ETL",
+          "pipeline_criticality": "MEDIUM",
+          "severity": 0.26,
+          "risk_score": 0.834,
+          "pipeline_state": 0.656,
+          "previous_action": "HITL_ESCALATION",
+          "recovery_time_sec": 437,
+          "governance_compliance": 0.977,
+          "incident_timestamp": "2025-01-01"
+        },
+        {
+          "historical_incident_id": "HINC046",
+          "fault_code": "SCH04",
+          "pipeline_type": "STREAMING",
+          "pipeline_criticality": "CRITICAL",
+          "severity": 0.412,
+          "risk_score": 0.779,
+          "pipeline_state": 0.254,
+          "previous_action": "ADAPTIVE_REPLANNING",
+          "recovery_time_sec": 414,
+          "governance_compliance": 0.922,
+          "incident_timestamp": "2025-02-07"
+        },
+        {
+          "historical_incident_id": "HINC047",
+          "fault_code": "DQ06",
+          "pipeline_type": "STREAMING",
+          "pipeline_criticality": "CRITICAL",
+          "severity": 0.861,
+          "risk_score": 0.266,
+          "pipeline_state": 0.642,
+          "previous_action": "AUTONOMOUS_RECOVERY",
+          "recovery_time_sec": 368,
+          "governance_compliance": 0.94,
+          "incident_timestamp": "2025-03-27"
+        },
+        {
+          "historical_incident_id": "HINC048",
+          "fault_code": "DQ06",
+          "pipeline_type": "ETL",
+          "pipeline_criticality": "LOW",
+          "severity": 0.567,
+          "risk_score": 0.673,
+          "pipeline_state": 0.395,
+          "previous_action": "AUTONOMOUS_RECOVERY",
+          "recovery_time_sec": 285,
+          "governance_compliance": 0.94,
+          "incident_timestamp": "2025-04-19"
+        },
+        {
+          "historical_incident_id": "HINC049",
+          "fault_code": "SCH06",
+          "pipeline_type": "BATCH",
+          "pipeline_criticality": "MEDIUM",
+          "severity": 0.474,
+          "risk_score": 0.525,
+          "pipeline_state": 0.393,
+          "previous_action": "AUTONOMOUS_RECOVERY",
+          "recovery_time_sec": 168,
+          "governance_compliance": 0.991,
+          "incident_timestamp": "2025-05-27"
+        },
+        {
+          "historical_incident_id": "HINC050",
+          "fault_code": "SCH07",
+          "pipeline_type": "STREAMING",
+          "pipeline_criticality": "LOW",
+          "severity": 0.106,
+          "risk_score": 0.408,
+          "pipeline_state": 0.385,
+          "previous_action": "AUTONOMOUS_RECOVERY",
+          "recovery_time_sec": 167,
+          "governance_compliance": 0.979,
+          "incident_timestamp": "2025-03-17"
+        },
+        {
+          "historical_incident_id": "HINC051",
+          "fault_code": "SCH04",
+          "pipeline_type": "ETL",
+          "pipeline_criticality": "CRITICAL",
+          "severity": 0.794,
+          "risk_score": 0.135,
+          "pipeline_state": 0.514,
+          "previous_action": "ADAPTIVE_REPLANNING",
+          "recovery_time_sec": 79,
+          "governance_compliance": 0.929,
+          "incident_timestamp": "2025-08-04"
+        },
+        {
+          "historical_incident_id": "HINC052",
+          "fault_code": "SCH06",
+          "pipeline_type": "BATCH",
+          "pipeline_criticality": "HIGH",
+          "severity": 0.832,
+          "risk_score": 0.164,
+          "pipeline_state": 0.647,
+          "previous_action": "ADAPTIVE_REPLANNING",
+          "recovery_time_sec": 216,
+          "governance_compliance": 0.944,
+          "incident_timestamp": "2025-07-03"
+        },
+        {
+          "historical_incident_id": "HINC053",
+          "fault_code": "SCH01",
+          "pipeline_type": "ETL",
+          "pipeline_criticality": "MEDIUM",
+          "severity": 0.545,
+          "risk_score": 0.757,
+          "pipeline_state": 0.625,
+          "previous_action": "HITL_ESCALATION",
+          "recovery_time_sec": 595,
+          "governance_compliance": 0.975,
+          "incident_timestamp": "2025-02-25"
+        },
+        {
+          "historical_incident_id": "HINC054",
+          "fault_code": "INF04",
+          "pipeline_type": "BATCH",
+          "pipeline_criticality": "HIGH",
+          "severity": 0.642,
+          "risk_score": 0.17,
+          "pipeline_state": 0.956,
+          "previous_action": "AUTONOMOUS_RECOVERY",
+          "recovery_time_sec": 295,
+          "governance_compliance": 0.932,
+          "incident_timestamp": "2025-03-01"
+        },
+        {
+          "historical_incident_id": "HINC055",
+          "fault_code": "SCH02",
+          "pipeline_type": "BATCH",
+          "pipeline_criticality": "CRITICAL",
+          "severity": 0.504,
+          "risk_score": 0.444,
+          "pipeline_state": 0.531,
+          "previous_action": "AUTONOMOUS_RECOVERY",
+          "recovery_time_sec": 454,
+          "governance_compliance": 0.999,
+          "incident_timestamp": "2025-07-09"
+        },
+        {
+          "historical_incident_id": "HINC056",
+          "fault_code": "INF02",
+          "pipeline_type": "ELT",
+          "pipeline_criticality": "CRITICAL",
+          "severity": 0.765,
+          "risk_score": 0.337,
+          "pipeline_state": 0.719,
+          "previous_action": "AUTONOMOUS_RECOVERY",
+          "recovery_time_sec": 468,
+          "governance_compliance": 0.99,
+          "incident_timestamp": "2025-04-05"
+        },
+        {
+          "historical_incident_id": "HINC057",
+          "fault_code": "SCH01",
+          "pipeline_type": "ELT",
+          "pipeline_criticality": "LOW",
+          "severity": 0.529,
+          "risk_score": 0.597,
+          "pipeline_state": 0.84,
+          "previous_action": "AUTONOMOUS_RECOVERY",
+          "recovery_time_sec": 447,
+          "governance_compliance": 0.908,
+          "incident_timestamp": "2026-03-13"
+        },
+        {
+          "historical_incident_id": "HINC058",
+          "fault_code": "SCH06",
+          "pipeline_type": "BATCH",
+          "pipeline_criticality": "HIGH",
+          "severity": 0.82,
+          "risk_score": 0.109,
+          "pipeline_state": 0.525,
+          "previous_action": "AUTONOMOUS_RECOVERY",
+          "recovery_time_sec": 598,
+          "governance_compliance": 0.942,
+          "incident_timestamp": "2025-08-13"
+        },
+        {
+          "historical_incident_id": "HINC059",
+          "fault_code": "SCH01",
+          "pipeline_type": "STREAMING",
+          "pipeline_criticality": "CRITICAL",
+          "severity": 0.437,
+          "risk_score": 0.328,
+          "pipeline_state": 0.765,
+          "previous_action": "HITL_ESCALATION",
+          "recovery_time_sec": 357,
+          "governance_compliance": 0.931,
+          "incident_timestamp": "2025-09-06"
+        },
+        {
+          "historical_incident_id": "HINC060",
+          "fault_code": "DQ03",
+          "pipeline_type": "ELT",
+          "pipeline_criticality": "HIGH",
+          "severity": 0.896,
+          "risk_score": 0.756,
+          "pipeline_state": 0.35,
+          "previous_action": "AUTONOMOUS_RECOVERY",
+          "recovery_time_sec": 318,
+          "governance_compliance": 0.921,
+          "incident_timestamp": "2025-12-27"
+        },
+        {
+          "historical_incident_id": "HINC061",
+          "fault_code": "SCH07",
+          "pipeline_type": "ELT",
+          "pipeline_criticality": "CRITICAL",
+          "severity": 0.606,
+          "risk_score": 0.838,
+          "pipeline_state": 0.591,
+          "previous_action": "ADAPTIVE_REPLANNING",
+          "recovery_time_sec": 76,
+          "governance_compliance": 0.973,
+          "incident_timestamp": "2025-03-23"
+        },
+        {
+          "historical_incident_id": "HINC062",
+          "fault_code": "SCH04",
+          "pipeline_type": "BATCH",
+          "pipeline_criticality": "MEDIUM",
+          "severity": 0.545,
+          "risk_score": 0.785,
+          "pipeline_state": 0.21,
+          "previous_action": "AUTONOMOUS_RECOVERY",
+          "recovery_time_sec": 465,
+          "governance_compliance": 0.924,
+          "incident_timestamp": "2026-02-15"
+        },
+        {
+          "historical_incident_id": "HINC063",
+          "fault_code": "ORC02",
+          "pipeline_type": "ETL",
+          "pipeline_criticality": "MEDIUM",
+          "severity": 0.489,
+          "risk_score": 0.219,
+          "pipeline_state": 0.752,
+          "previous_action": "ADAPTIVE_REPLANNING",
+          "recovery_time_sec": 361,
+          "governance_compliance": 0.978,
+          "incident_timestamp": "2025-11-03"
+        },
+        {
+          "historical_incident_id": "HINC064",
+          "fault_code": "DQ04",
+          "pipeline_type": "ELT",
+          "pipeline_criticality": "LOW",
+          "severity": 0.557,
+          "risk_score": 0.561,
+          "pipeline_state": 0.242,
+          "previous_action": "ADAPTIVE_REPLANNING",
+          "recovery_time_sec": 201,
+          "governance_compliance": 0.948,
+          "incident_timestamp": "2025-03-07"
+        },
+        {
+          "historical_incident_id": "HINC065",
+          "fault_code": "ORC04",
+          "pipeline_type": "ETL",
+          "pipeline_criticality": "CRITICAL",
+          "severity": 0.494,
+          "risk_score": 0.219,
+          "pipeline_state": 0.429,
+          "previous_action": "HITL_ESCALATION",
+          "recovery_time_sec": 310,
+          "governance_compliance": 0.946,
+          "incident_timestamp": "2025-07-06"
+        },
+        {
+          "historical_incident_id": "HINC066",
+          "fault_code": "ORC05",
+          "pipeline_type": "ETL",
+          "pipeline_criticality": "HIGH",
+          "severity": 0.795,
+          "risk_score": 0.379,
+          "pipeline_state": 0.516,
+          "previous_action": "AUTONOMOUS_RECOVERY",
+          "recovery_time_sec": 544,
+          "governance_compliance": 0.906,
+          "incident_timestamp": "2026-02-05"
+        },
+        {
+          "historical_incident_id": "HINC067",
+          "fault_code": "SCH03",
+          "pipeline_type": "ELT",
+          "pipeline_criticality": "LOW",
+          "severity": 0.891,
+          "risk_score": 0.873,
+          "pipeline_state": 0.227,
+          "previous_action": "ADAPTIVE_REPLANNING",
+          "recovery_time_sec": 489,
+          "governance_compliance": 0.95,
+          "incident_timestamp": "2025-09-28"
+        },
+        {
+          "historical_incident_id": "HINC068",
+          "fault_code": "DQ06",
+          "pipeline_type": "ETL",
+          "pipeline_criticality": "HIGH",
+          "severity": 0.416,
+          "risk_score": 0.782,
+          "pipeline_state": 0.93,
+          "previous_action": "AUTONOMOUS_RECOVERY",
+          "recovery_time_sec": 298,
+          "governance_compliance": 0.993,
+          "incident_timestamp": "2026-03-23"
+        },
+        {
+          "historical_incident_id": "HINC069",
+          "fault_code": "DQ04",
+          "pipeline_type": "STREAMING",
+          "pipeline_criticality": "LOW",
+          "severity": 0.148,
+          "risk_score": 0.271,
+          "pipeline_state": 0.872,
+          "previous_action": "AUTONOMOUS_RECOVERY",
+          "recovery_time_sec": 252,
+          "governance_compliance": 0.963,
+          "incident_timestamp": "2026-04-15"
+        },
+        {
+          "historical_incident_id": "HINC070",
+          "fault_code": "INF01",
+          "pipeline_type": "STREAMING",
+          "pipeline_criticality": "MEDIUM",
+          "severity": 0.888,
+          "risk_score": 0.429,
+          "pipeline_state": 0.831,
+          "previous_action": "AUTONOMOUS_RECOVERY",
+          "recovery_time_sec": 198,
+          "governance_compliance": 0.994,
+          "incident_timestamp": "2025-06-22"
+        },
+        {
+          "historical_incident_id": "HINC071",
+          "fault_code": "DQ01",
+          "pipeline_type": "ELT",
+          "pipeline_criticality": "CRITICAL",
+          "severity": 0.481,
+          "risk_score": 0.514,
+          "pipeline_state": 0.816,
+          "previous_action": "ADAPTIVE_REPLANNING",
+          "recovery_time_sec": 357,
+          "governance_compliance": 0.98,
+          "incident_timestamp": "2026-01-27"
+        },
+        {
+          "historical_incident_id": "HINC072",
+          "fault_code": "DQ04",
+          "pipeline_type": "STREAMING",
+          "pipeline_criticality": "LOW",
+          "severity": 0.382,
+          "risk_score": 0.336,
+          "pipeline_state": 0.664,
+          "previous_action": "AUTONOMOUS_RECOVERY",
+          "recovery_time_sec": 235,
+          "governance_compliance": 0.996,
+          "incident_timestamp": "2025-10-01"
+        },
+        {
+          "historical_incident_id": "HINC073",
+          "fault_code": "ORC04",
+          "pipeline_type": "BATCH",
+          "pipeline_criticality": "MEDIUM",
+          "severity": 0.893,
+          "risk_score": 0.346,
+          "pipeline_state": 0.848,
+          "previous_action": "AUTONOMOUS_RECOVERY",
+          "recovery_time_sec": 493,
+          "governance_compliance": 0.974,
+          "incident_timestamp": "2025-12-19"
+        },
+        {
+          "historical_incident_id": "HINC074",
+          "fault_code": "INF03",
+          "pipeline_type": "STREAMING",
+          "pipeline_criticality": "LOW",
+          "severity": 0.42,
+          "risk_score": 0.449,
+          "pipeline_state": 0.578,
+          "previous_action": "AUTONOMOUS_RECOVERY",
+          "recovery_time_sec": 273,
+          "governance_compliance": 0.911,
+          "incident_timestamp": "2025-07-23"
+        },
+        {
+          "historical_incident_id": "HINC075",
+          "fault_code": "ORC03",
+          "pipeline_type": "ETL",
+          "pipeline_criticality": "CRITICAL",
+          "severity": 0.797,
+          "risk_score": 0.362,
+          "pipeline_state": 0.885,
+          "previous_action": "ADAPTIVE_REPLANNING",
+          "recovery_time_sec": 578,
+          "governance_compliance": 0.922,
+          "incident_timestamp": "2026-03-17"
+        },
+        {
+          "historical_incident_id": "HINC076",
+          "fault_code": "DQ05",
+          "pipeline_type": "BATCH",
+          "pipeline_criticality": "LOW",
+          "severity": 0.845,
+          "risk_score": 0.599,
+          "pipeline_state": 0.934,
+          "previous_action": "ADAPTIVE_REPLANNING",
+          "recovery_time_sec": 235,
+          "governance_compliance": 0.974,
+          "incident_timestamp": "2025-05-24"
+        },
+        {
+          "historical_incident_id": "HINC077",
+          "fault_code": "ORC07",
+          "pipeline_type": "BATCH",
+          "pipeline_criticality": "CRITICAL",
+          "severity": 0.856,
+          "risk_score": 0.284,
+          "pipeline_state": 0.78,
+          "previous_action": "AUTONOMOUS_RECOVERY",
+          "recovery_time_sec": 76,
+          "governance_compliance": 0.935,
+          "incident_timestamp": "2025-10-16"
+        },
+        {
+          "historical_incident_id": "HINC078",
+          "fault_code": "SCH06",
+          "pipeline_type": "ETL",
+          "pipeline_criticality": "CRITICAL",
+          "severity": 0.156,
+          "risk_score": 0.846,
+          "pipeline_state": 0.685,
+          "previous_action": "AUTONOMOUS_RECOVERY",
+          "recovery_time_sec": 389,
+          "governance_compliance": 0.968,
+          "incident_timestamp": "2026-03-04"
+        },
+        {
+          "historical_incident_id": "HINC079",
+          "fault_code": "INF04",
+          "pipeline_type": "BATCH",
+          "pipeline_criticality": "CRITICAL",
+          "severity": 0.642,
+          "risk_score": 0.482,
+          "pipeline_state": 0.621,
+          "previous_action": "ADAPTIVE_REPLANNING",
+          "recovery_time_sec": 285,
+          "governance_compliance": 0.967,
+          "incident_timestamp": "2025-09-08"
+        },
+        {
+          "historical_incident_id": "HINC080",
+          "fault_code": "INF02",
+          "pipeline_type": "BATCH",
+          "pipeline_criticality": "MEDIUM",
+          "severity": 0.16,
+          "risk_score": 0.484,
+          "pipeline_state": 0.256,
+          "previous_action": "ADAPTIVE_REPLANNING",
+          "recovery_time_sec": 592,
+          "governance_compliance": 0.987,
+          "incident_timestamp": "2026-03-11"
+        }
+      ],
+      "candidate_actions": [
+        {
+          "action_id": "A1.01",
+          "action_class": "AUTONOMOUS_RECOVERY",
+          "action_name": "Retry failed task",
+          "requires_approval": 0,
+          "data_modification": 0,
+          "rollback_capability": 1,
+          "expected_recovery_time_sec": 74,
+          "active_status": "ACTIVE"
+        },
+        {
+          "action_id": "A1.02",
+          "action_class": "AUTONOMOUS_RECOVERY",
+          "action_name": "Restart job",
+          "requires_approval": 0,
+          "data_modification": 0,
+          "rollback_capability": 1,
+          "expected_recovery_time_sec": 154,
+          "active_status": "ACTIVE"
+        },
+        {
+          "action_id": "A1.03",
+          "action_class": "AUTONOMOUS_RECOVERY",
+          "action_name": "Restore checkpoint",
+          "requires_approval": 0,
+          "data_modification": 0,
+          "rollback_capability": 1,
+          "expected_recovery_time_sec": 153,
+          "active_status": "ACTIVE"
+        },
+        {
+          "action_id": "A1.04",
+          "action_class": "AUTONOMOUS_RECOVERY",
+          "action_name": "Reprocess partition",
+          "requires_approval": 0,
+          "data_modification": 1,
+          "rollback_capability": 1,
+          "expected_recovery_time_sec": 201,
+          "active_status": "ACTIVE"
+        },
+        {
+          "action_id": "A1.05",
+          "action_class": "AUTONOMOUS_RECOVERY",
+          "action_name": "Apply validated schema mapping",
+          "requires_approval": 0,
+          "data_modification": 1,
+          "rollback_capability": 0,
+          "expected_recovery_time_sec": 365,
+          "active_status": "ACTIVE"
+        },
+        {
+          "action_id": "A2.01",
+          "action_class": "ADAPTIVE_REPLANNING",
+          "action_name": "Change execution plan",
+          "requires_approval": 0,
+          "data_modification": 1,
+          "rollback_capability": 1,
+          "expected_recovery_time_sec": 127,
+          "active_status": "ACTIVE"
+        },
+        {
+          "action_id": "A2.02",
+          "action_class": "ADAPTIVE_REPLANNING",
+          "action_name": "Reroute pipeline",
+          "requires_approval": 0,
+          "data_modification": 1,
+          "rollback_capability": 1,
+          "expected_recovery_time_sec": 109,
+          "active_status": "ACTIVE"
+        },
+        {
+          "action_id": "A2.03",
+          "action_class": "ADAPTIVE_REPLANNING",
+          "action_name": "Reallocate resources",
+          "requires_approval": 0,
+          "data_modification": 0,
+          "rollback_capability": 1,
+          "expected_recovery_time_sec": 531,
+          "active_status": "ACTIVE"
+        },
+        {
+          "action_id": "A2.04",
+          "action_class": "ADAPTIVE_REPLANNING",
+          "action_name": "Change dependency order",
+          "requires_approval": 0,
+          "data_modification": 1,
+          "rollback_capability": 1,
+          "expected_recovery_time_sec": 192,
+          "active_status": "ACTIVE"
+        },
+        {
+          "action_id": "A3.01",
+          "action_class": "HITL_ESCALATION",
+          "action_name": "Request human approval",
+          "requires_approval": 1,
+          "data_modification": 0,
+          "rollback_capability": 0,
+          "expected_recovery_time_sec": 166,
+          "active_status": "ACTIVE"
+        },
+        {
+          "action_id": "A3.02",
+          "action_class": "HITL_ESCALATION",
+          "action_name": "Hold pipeline",
+          "requires_approval": 1,
+          "data_modification": 0,
+          "rollback_capability": 0,
+          "expected_recovery_time_sec": 166,
+          "active_status": "ACTIVE"
+        },
+        {
+          "action_id": "A3.03",
+          "action_class": "HITL_ESCALATION",
+          "action_name": "Manual recovery",
+          "requires_approval": 1,
+          "data_modification": 1,
+          "rollback_capability": 0,
+          "expected_recovery_time_sec": 596,
+          "active_status": "ACTIVE"
+        },
+        {
+          "action_id": "A3.04",
+          "action_class": "HITL_ESCALATION",
+          "action_name": "Reject proposed recovery",
+          "requires_approval": 1,
+          "data_modification": 0,
+          "rollback_capability": 0,
+          "expected_recovery_time_sec": 463,
+          "active_status": "ACTIVE"
+        }
+      ],
+      "governance": [
+        {
+          "source_table": "governance_policies",
+          "policy_id": "POL-001",
+          "policy_category": "PII",
+          "condition": "PII-involved pipelines require governed recovery",
+          "scope": "PII",
+          "active_status": 1
+        },
+        {
+          "source_table": "governance_policies",
+          "policy_id": "POL-002",
+          "policy_category": "REG",
+          "condition": "Regulatory pipelines require lineage preservation",
+          "scope": "REGULATORY",
+          "active_status": 1
+        },
+        {
+          "source_table": "governance_policies",
+          "policy_id": "POL-003",
+          "policy_category": "AUD",
+          "condition": "Every recovery must be auditable",
+          "scope": "ALL",
+          "active_status": 1
+        },
+        {
+          "source_table": "governance_policies",
+          "policy_id": "POL-004",
+          "policy_category": "RISK",
+          "condition": "Risk above medium requires HITL",
+          "scope": "RISK",
+          "active_status": 1
+        },
+        {
+          "source_table": "governance_policies",
+          "policy_id": "POL-005",
+          "policy_category": "CRIT",
+          "condition": "Critical pipelines require controlled recovery",
+          "scope": "CRITICAL",
+          "active_status": 1
+        },
+        {
+          "source_table": "governance_policies",
+          "policy_id": "POL-006",
+          "policy_category": "SCHEMA",
+          "condition": "Unapproved schema transformation cannot be autonomous",
+          "scope": "SCHEMA",
+          "active_status": 1
+        },
+        {
+          "source_table": "governance_policies",
+          "policy_id": "POL-007",
+          "policy_category": "DATA",
+          "condition": "Destructive data modification requires approval",
+          "scope": "DATA",
+          "active_status": 1
+        },
+        {
+          "source_table": "governance_policies",
+          "policy_id": "POL-008",
+          "policy_category": "DEPEND",
+          "condition": "Dependency changes require validation",
+          "scope": "ORCHESTRATION",
+          "active_status": 1
+        },
+        {
+          "source_table": "governance_policies",
+          "policy_id": "POL-009",
+          "policy_category": "RET",
+          "condition": "Retention constraints must remain satisfied",
+          "scope": "DATA",
+          "active_status": 1
+        },
+        {
+          "source_table": "governance_policies",
+          "policy_id": "POL-010",
+          "policy_category": "ACCESS",
+          "condition": "Restricted data changes require oversight",
+          "scope": "ACCESS",
+          "active_status": 1
+        },
+        {
+          "source_table": "governance_policies",
+          "policy_id": "POL-011",
+          "policy_category": "TRACE",
+          "condition": "Decision justification is required",
+          "scope": "ALL",
+          "active_status": 1
+        },
+        {
+          "source_table": "governance_policies",
+          "policy_id": "POL-012",
+          "policy_category": "VAL",
+          "condition": "Recovery requires post-execution validation",
+          "scope": "ALL",
+          "active_status": 1
+        },
+        {
+          "source_table": "governance_policies",
+          "policy_id": "POL-013",
+          "policy_category": "CONF",
+          "condition": "Low diagnosis confidence triggers review",
+          "scope": "RISK",
+          "active_status": 1
+        },
+        {
+          "source_table": "governance_policies",
+          "policy_id": "POL-014",
+          "policy_category": "FAIL",
+          "condition": "Repeated recovery failure requires escalation",
+          "scope": "RECOVERY",
+          "active_status": 1
+        },
+        {
+          "source_table": "governance_policies",
+          "policy_id": "POL-015",
+          "policy_category": "LINEAGE",
+          "condition": "Lineage metadata must be preserved",
+          "scope": "REGULATORY",
+          "active_status": 1
+        },
+        {
+          "source_table": "governance_policies",
+          "policy_id": "POL-016",
+          "policy_category": "INTEGRITY",
+          "condition": "Data integrity must be verified after recovery",
+          "scope": "ALL",
+          "active_status": 1
+        },
+        {
+          "source_table": "governance_policies",
+          "policy_id": "POL-017",
+          "policy_category": "SLA",
+          "condition": "Critical SLA breaches require escalation",
+          "scope": "SLA",
+          "active_status": 1
+        },
+        {
+          "source_table": "governance_policies",
+          "policy_id": "POL-018",
+          "policy_category": "HUMAN",
+          "condition": "Human approval cannot be bypassed when mandated",
+          "scope": "HITL",
+          "active_status": 1
+        },
+        {
+          "source_table": "governance_policies",
+          "policy_id": "POL-019",
+          "policy_category": "MEM",
+          "condition": "Historical evidence may support but not override policy",
+          "scope": "MEMORY",
+          "active_status": 1
+        },
+        {
+          "source_table": "governance_policies",
+          "policy_id": "POL-020",
+          "policy_category": "VERSION",
+          "condition": "Policy version must be recorded",
+          "scope": "AUDIT",
+          "active_status": 1
+        },
+        {
+          "source_table": "regulatory_constraints",
+          "constraint_id": "REG01",
+          "obligation": "LINEAGE_REQUIRED",
+          "scope": "Regulatory pipelines",
+          "regulatory_reference": "BCBS_239",
+          "active_status": 1
+        },
+        {
+          "source_table": "regulatory_constraints",
+          "constraint_id": "REG02",
+          "obligation": "AUDIT_TRAIL_REQUIRED",
+          "scope": "Recovery decisions",
+          "regulatory_reference": "BCBS_239",
+          "active_status": 1
+        },
+        {
+          "source_table": "regulatory_constraints",
+          "constraint_id": "REG03",
+          "obligation": "DATA_INTEGRITY_REQUIRED",
+          "scope": "Banking pipelines",
+          "regulatory_reference": "BCBS_239",
+          "active_status": 1
+        },
+        {
+          "source_table": "regulatory_constraints",
+          "constraint_id": "REG04",
+          "obligation": "TRACEABILITY_REQUIRED",
+          "scope": "Recovery actions",
+          "regulatory_reference": "BCBS_239",
+          "active_status": 1
+        },
+        {
+          "source_table": "regulatory_constraints",
+          "constraint_id": "REG05",
+          "obligation": "CONTROLLED_CHANGE",
+          "scope": "Regulatory transformations",
+          "regulatory_reference": "BCBS_239",
+          "active_status": 1
+        },
+        {
+          "source_table": "regulatory_constraints",
+          "constraint_id": "REG06",
+          "obligation": "GOVERNED_RECOVERY",
+          "scope": "High-risk regulatory operations",
+          "regulatory_reference": "BCBS_239",
+          "active_status": 1
+        },
+        {
+          "source_table": "risk_rules",
+          "risk_rule_id": "R1",
+          "min_score": 0.0,
+          "max_score": 0.449,
+          "risk_tier": "LOW",
+          "hitl_required": 0
+        },
+        {
+          "source_table": "risk_rules",
+          "risk_rule_id": "R2",
+          "min_score": 0.45,
+          "max_score": 0.599,
+          "risk_tier": "MEDIUM",
+          "hitl_required": 0
+        },
+        {
+          "source_table": "risk_rules",
+          "risk_rule_id": "R3",
+          "min_score": 0.6,
+          "max_score": 0.749,
+          "risk_tier": "HIGH",
+          "hitl_required": 1
+        },
+        {
+          "source_table": "risk_rules",
+          "risk_rule_id": "R4",
+          "min_score": 0.75,
+          "max_score": 1.0,
+          "risk_tier": "CRITICAL",
+          "hitl_required": 1
+        }
+      ],
+      "risk_rules": [
+        {
+          "risk_rule_id": "R1",
+          "min_score": 0.0,
+          "max_score": 0.449,
+          "risk_tier": "LOW",
+          "hitl_required": 0
+        },
+        {
+          "risk_rule_id": "R2",
+          "min_score": 0.45,
+          "max_score": 0.599,
+          "risk_tier": "MEDIUM",
+          "hitl_required": 0
+        },
+        {
+          "risk_rule_id": "R3",
+          "min_score": 0.6,
+          "max_score": 0.749,
+          "risk_tier": "HIGH",
+          "hitl_required": 1
+        },
+        {
+          "risk_rule_id": "R4",
+          "min_score": 0.75,
+          "max_score": 1.0,
+          "risk_tier": "CRITICAL",
+          "hitl_required": 1
+        }
+      ],
+      "hitl_policy": [
+        {
+          "hitl_policy_id": "HITL01",
+          "policy_name": "HIGH_RISK",
+          "condition": "Risk >= 0.60",
+          "enabled": 1
+        },
+        {
+          "hitl_policy_id": "HITL02",
+          "policy_name": "CRITICAL",
+          "condition": "Critical pipeline",
+          "enabled": 1
+        },
+        {
+          "hitl_policy_id": "HITL03",
+          "policy_name": "REGULATORY",
+          "condition": "High regulatory relevance + high severity",
+          "enabled": 1
+        },
+        {
+          "hitl_policy_id": "HITL04",
+          "policy_name": "LOW_CONFIDENCE",
+          "condition": "Diagnosis confidence < 0.70",
+          "enabled": 1
+        },
+        {
+          "hitl_policy_id": "HITL05",
+          "policy_name": "POLICY",
+          "condition": "Autonomous action violates policy",
+          "enabled": 1
+        },
+        {
+          "hitl_policy_id": "HITL06",
+          "policy_name": "REPEAT_FAIL",
+          "condition": "Repeated recovery failure",
+          "enabled": 1
+        }
+      ],
+      "business_context": {}
+    },
+    "monitoring": {
+      "incident_id": "INC001",
+      "monitoring_version": "AG01-v1.0.0",
+      "failure_timestamp": null,
+      "detection_timestamp": null,
+      "context_timestamp": null,
+      "detection_latency_sec": null,
+      "observed": {},
+      "health_indicators": {
+        "operational_risk": null,
+        "pipeline_state_score": null,
+        "policy_compliance_score": null,
+        "historical_similarity_score": null,
+        "business_impact_score": null,
+        "sla_breach_risk": null
+      },
+      "environment_metadata": {
+        "fault_code": null,
+        "fault_category": null,
+        "pipeline_id": null,
+        "execution_id": null
+      },
+      "monitoring_confidence": 0.0,
+      "confidence_basis": [
+        "core_observation_completeness",
+        "health_indicator_completeness"
+      ],
+      "data_quality_flags": [
+        "missing_core_observation:failure_timestamp,detection_timestamp,failure_severity,operational_risk,pipeline_state_score,policy_compliance_score,business_impact_score,sla_breach_risk",
+        "incomplete_health_indicators"
+      ],
+      "feature_provenance": {
+        "health_indicators.operational_risk": {
+          "source": "incident_context",
+          "field": "operational_risk",
+          "role": "normalized_derived_feature"
+        },
+        "health_indicators.pipeline_state_score": {
+          "source": "incident_context",
+          "field": "pipeline_state_score",
+          "role": "normalized_derived_feature"
+        },
+        "health_indicators.policy_compliance_score": {
+          "source": "incident_context",
+          "field": "policy_compliance_score",
+          "role": "normalized_derived_feature"
+        },
+        "health_indicators.historical_similarity_score": {
+          "source": "incident_context",
+          "field": "historical_similarity_score",
+          "role": "normalized_derived_feature"
+        },
+        "health_indicators.business_impact_score": {
+          "source": "incident_context",
+          "field": "business_impact_score",
+          "role": "normalized_derived_feature"
+        },
+        "health_indicators.sla_breach_risk": {
+          "source": "incident_context",
+          "field": "sla_breach_risk",
+          "role": "normalized_derived_feature"
+        },
+        "detection_latency_sec": {
+          "source": "incident_context",
+          "field": "failure_timestamp,detection_timestamp",
+          "role": "derived_temporal_feature"
+        }
+      }
+    },
+    "diagnosis": {
+      "incident_id": "INC001",
+      "diagnosis_version": "AG02-v1.0.0",
+      "diagnosis_timestamp": null,
+      "predicted_fault_code": "UNKNOWN",
+      "predicted_fault_category": "Unknown",
+      "predicted_severity": "Unknown",
+      "root_cause": "Unclassified operational fault requiring further investigation.",
+      "diagnosis_confidence": 0.4,
+      "diagnosis_latency_sec": null,
+      "diagnosis_success": null,
+      "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+      "evidence_features": [
+        "no diagnostic symptom rule fired",
+        "operational_risk",
+        "pipeline_state_score",
+        "business_impact_score"
+      ],
+      "feature_provenance": {
+        "no diagnostic symptom rule fired": {
+          "source": "AG01.MonitoringState",
+          "field": "no diagnostic symptom rule fired",
+          "role": "diagnostic_evidence"
+        },
+        "operational_risk": {
+          "source": "AG01.MonitoringState",
+          "field": "operational_risk",
+          "role": "diagnostic_evidence"
+        },
+        "pipeline_state_score": {
+          "source": "AG01.MonitoringState",
+          "field": "pipeline_state_score",
+          "role": "diagnostic_evidence"
+        },
+        "business_impact_score": {
+          "source": "AG01.MonitoringState",
+          "field": "business_impact_score",
+          "role": "diagnostic_evidence"
+        }
+      }
+    },
+    "governance": {
+      "incident_id": "INC001",
+      "governance_version": "AG03-v1.0.0",
+      "governance_timestamp": null,
+      "risk_score": 0.0,
+      "risk_tier": "LOW",
+      "policy_compliant": true,
+      "regulatory_clear": true,
+      "criticality_clear": true,
+      "hitl_required": false,
+      "hitl_reason": null,
+      "action_class_constraints": {
+        "A1.01": {
+          "requires_approval": false,
+          "data_modification": false,
+          "rollback_capability": true,
+          "allowed": true,
+          "blocked_reason": null
+        },
+        "A1.02": {
+          "requires_approval": false,
+          "data_modification": false,
+          "rollback_capability": true,
+          "allowed": true,
+          "blocked_reason": null
+        },
+        "A1.03": {
+          "requires_approval": false,
+          "data_modification": false,
+          "rollback_capability": true,
+          "allowed": true,
+          "blocked_reason": null
+        },
+        "A1.04": {
+          "requires_approval": false,
+          "data_modification": true,
+          "rollback_capability": true,
+          "allowed": true,
+          "blocked_reason": null
+        },
+        "A1.05": {
+          "requires_approval": false,
+          "data_modification": true,
+          "rollback_capability": false,
+          "allowed": false,
+          "blocked_reason": "data modification without rollback capability"
+        },
+        "A2.01": {
+          "requires_approval": false,
+          "data_modification": true,
+          "rollback_capability": true,
+          "allowed": true,
+          "blocked_reason": null
+        },
+        "A2.02": {
+          "requires_approval": false,
+          "data_modification": true,
+          "rollback_capability": true,
+          "allowed": true,
+          "blocked_reason": null
+        },
+        "A2.03": {
+          "requires_approval": false,
+          "data_modification": false,
+          "rollback_capability": true,
+          "allowed": true,
+          "blocked_reason": null
+        },
+        "A2.04": {
+          "requires_approval": false,
+          "data_modification": true,
+          "rollback_capability": true,
+          "allowed": true,
+          "blocked_reason": null
+        },
+        "A3.01": {
+          "requires_approval": true,
+          "data_modification": false,
+          "rollback_capability": false,
+          "allowed": true,
+          "blocked_reason": null
+        },
+        "A3.02": {
+          "requires_approval": true,
+          "data_modification": false,
+          "rollback_capability": false,
+          "allowed": true,
+          "blocked_reason": null
+        },
+        "A3.03": {
+          "requires_approval": true,
+          "data_modification": true,
+          "rollback_capability": false,
+          "allowed": false,
+          "blocked_reason": "data modification without rollback capability"
+        },
+        "A3.04": {
+          "requires_approval": true,
+          "data_modification": false,
+          "rollback_capability": false,
+          "allowed": true,
+          "blocked_reason": null
+        }
+      },
+      "permitted_action_ids": [
+        "A1.01",
+        "A1.02",
+        "A1.03",
+        "A1.04",
+        "A2.01",
+        "A2.02",
+        "A2.03",
+        "A2.04",
+        "A3.01",
+        "A3.02",
+        "A3.04"
+      ],
+      "blocked_action_ids": [
+        "A1.05",
+        "A3.03"
+      ],
+      "policy_evaluations": [
+        {
+          "policy_id": "POL-001",
+          "category": "PII",
+          "condition": "PII-involved pipelines require governed recovery",
+          "result": "PASS"
+        },
+        {
+          "policy_id": "POL-002",
+          "category": "REG",
+          "condition": "Regulatory pipelines require lineage preservation",
+          "result": "PASS"
+        },
+        {
+          "policy_id": "POL-003",
+          "category": "AUD",
+          "condition": "Every recovery must be auditable",
+          "result": "PASS"
+        },
+        {
+          "policy_id": "POL-004",
+          "category": "RISK",
+          "condition": "Risk above medium requires HITL",
+          "result": "PASS"
+        },
+        {
+          "policy_id": "POL-005",
+          "category": "CRIT",
+          "condition": "Critical pipelines require controlled recovery",
+          "result": "PASS"
+        },
+        {
+          "policy_id": "POL-006",
+          "category": "SCHEMA",
+          "condition": "Unapproved schema transformation cannot be autonomous",
+          "result": "PASS"
+        },
+        {
+          "policy_id": "POL-007",
+          "category": "DATA",
+          "condition": "Destructive data modification requires approval",
+          "result": "PASS"
+        },
+        {
+          "policy_id": "POL-008",
+          "category": "DEPEND",
+          "condition": "Dependency changes require validation",
+          "result": "PASS"
+        },
+        {
+          "policy_id": "POL-009",
+          "category": "RET",
+          "condition": "Retention constraints must remain satisfied",
+          "result": "PASS"
+        },
+        {
+          "policy_id": "POL-010",
+          "category": "ACCESS",
+          "condition": "Restricted data changes require oversight",
+          "result": "PASS"
+        },
+        {
+          "policy_id": "POL-011",
+          "category": "TRACE",
+          "condition": "Decision justification is required",
+          "result": "PASS"
+        },
+        {
+          "policy_id": "POL-012",
+          "category": "VAL",
+          "condition": "Recovery requires post-execution validation",
+          "result": "PASS"
+        },
+        {
+          "policy_id": "POL-013",
+          "category": "CONF",
+          "condition": "Low diagnosis confidence triggers review",
+          "result": "PASS"
+        },
+        {
+          "policy_id": "POL-014",
+          "category": "FAIL",
+          "condition": "Repeated recovery failure requires escalation",
+          "result": "PASS"
+        },
+        {
+          "policy_id": "POL-015",
+          "category": "LINEAGE",
+          "condition": "Lineage metadata must be preserved",
+          "result": "PASS"
+        },
+        {
+          "policy_id": "POL-016",
+          "category": "INTEGRITY",
+          "condition": "Data integrity must be verified after recovery",
+          "result": "PASS"
+        },
+        {
+          "policy_id": "POL-017",
+          "category": "SLA",
+          "condition": "Critical SLA breaches require escalation",
+          "result": "PASS"
+        },
+        {
+          "policy_id": "POL-018",
+          "category": "HUMAN",
+          "condition": "Human approval cannot be bypassed when mandated",
+          "result": "PASS"
+        },
+        {
+          "policy_id": "POL-019",
+          "category": "MEM",
+          "condition": "Historical evidence may support but not override policy",
+          "result": "PASS"
+        },
+        {
+          "policy_id": "POL-020",
+          "category": "VERSION",
+          "condition": "Policy version must be recorded",
+          "result": "PASS"
+        }
+      ],
+      "regulatory_evaluations": [
+        {
+          "constraint_id": "REG01",
+          "obligation": "LINEAGE_REQUIRED",
+          "regulatory_reference": "BCBS_239",
+          "result": "PASS"
+        },
+        {
+          "constraint_id": "REG02",
+          "obligation": "AUDIT_TRAIL_REQUIRED",
+          "regulatory_reference": "BCBS_239",
+          "result": "PASS"
+        },
+        {
+          "constraint_id": "REG03",
+          "obligation": "DATA_INTEGRITY_REQUIRED",
+          "regulatory_reference": "BCBS_239",
+          "result": "PASS"
+        },
+        {
+          "constraint_id": "REG04",
+          "obligation": "TRACEABILITY_REQUIRED",
+          "regulatory_reference": "BCBS_239",
+          "result": "PASS"
+        },
+        {
+          "constraint_id": "REG05",
+          "obligation": "CONTROLLED_CHANGE",
+          "regulatory_reference": "BCBS_239",
+          "result": "PASS"
+        },
+        {
+          "constraint_id": "REG06",
+          "obligation": "GOVERNED_RECOVERY",
+          "regulatory_reference": "BCBS_239",
+          "result": "PASS"
+        }
+      ],
+      "governance_explanation": "Governance gate applied before recovery selection. Permitted actions are constrained by approval, rollback, risk and regulatory conditions.",
+      "feature_provenance": {
+        "risk.operational_risk": {
+          "source": "AG01.MonitoringState",
+          "field": "operational_risk",
+          "role": "risk_input"
+        },
+        "risk.business_impact_score": {
+          "source": "AG01.MonitoringState",
+          "field": "business_impact_score",
+          "role": "risk_input"
+        },
+        "risk.sla_breach_risk": {
+          "source": "AG01.MonitoringState",
+          "field": "sla_breach_risk",
+          "role": "risk_input"
+        },
+        "risk.pipeline_state_score": {
+          "source": "AG01.MonitoringState",
+          "field": "pipeline_state_score",
+          "role": "risk_input"
+        },
+        "risk_tier": {
+          "source": "AG03.GovernanceAgent",
+          "field": "risk_score",
+          "role": "derived_policy_output"
+        },
+        "hitl_required": {
+          "source": "AG03.GovernanceAgent",
+          "field": "risk_tier,pii_involved,regulatory_relevance",
+          "role": "governance_gate"
+        }
+      }
+    }
+  },
+  "decision": {
+    "incident_id": "INC001",
+    "decision_version": "GARDM-v1.0.0",
+    "decision_timestamp": null,
+    "P_score": 1.0,
+    "R_score": 0.0,
+    "S_score": 0.0,
+    "H_score": 0.0,
+    "F_score": 0.4,
+    "weights": {
+      "P": 0.2,
+      "R": 0.25,
+      "S": 0.2,
+      "H": 0.15,
+      "F": 0.2
+    },
+    "action_compatibility": {
+      "A1.01": {
+        "P": 0.75,
+        "R": 0.7,
+        "S": 0.8,
+        "H": 0.85,
+        "F": 0.8
+      },
+      "A1.02": {
+        "P": 0.75,
+        "R": 0.7,
+        "S": 0.8,
+        "H": 0.85,
+        "F": 0.8
+      },
+      "A1.03": {
+        "P": 0.75,
+        "R": 0.7,
+        "S": 0.8,
+        "H": 0.85,
+        "F": 0.8
+      },
+      "A1.04": {
+        "P": 0.75,
+        "R": 0.7,
+        "S": 0.8,
+        "H": 0.85,
+        "F": 0.6
+      },
+      "A2.01": {
+        "P": 0.75,
+        "R": 0.7,
+        "S": 0.8,
+        "H": 0.85,
+        "F": 0.6
+      },
+      "A2.02": {
+        "P": 0.75,
+        "R": 0.7,
+        "S": 0.8,
+        "H": 0.85,
+        "F": 0.6
+      },
+      "A2.03": {
+        "P": 0.75,
+        "R": 0.7,
+        "S": 0.6,
+        "H": 0.85,
+        "F": 0.8
+      },
+      "A2.04": {
+        "P": 0.75,
+        "R": 0.7,
+        "S": 0.8,
+        "H": 0.85,
+        "F": 0.6
+      },
+      "A3.01": {
+        "P": 0.75,
+        "R": 0.45,
+        "S": 0.8,
+        "H": 0.65,
+        "F": 0.8
+      },
+      "A3.02": {
+        "P": 0.75,
+        "R": 0.45,
+        "S": 0.8,
+        "H": 0.65,
+        "F": 0.8
+      },
+      "A3.04": {
+        "P": 0.75,
+        "R": 0.45,
+        "S": 0.6,
+        "H": 0.65,
+        "F": 0.8
+      }
+    },
+    "action_scores": {
+      "A1.01": 0.214,
+      "A1.02": 0.214,
+      "A1.03": 0.214,
+      "A1.04": 0.198,
+      "A2.01": 0.198,
+      "A2.02": 0.198,
+      "A2.03": 0.214,
+      "A2.04": 0.198,
+      "A3.01": 0.214,
+      "A3.02": 0.214,
+      "A3.04": 0.214
+    },
+    "risk_constraint_triggered": false,
+    "selected_action": "A1.01",
+    "decision_confidence": 0.5,
+    "status_note": "GARDM action selected from governance-permitted candidates. Risk/HITL constraint is recorded and cannot be bypassed.",
+    "w_P": 0.2,
+    "w_R": 0.25,
+    "w_S": 0.2,
+    "w_H": 0.15,
+    "w_F": 0.2,
+    "A1.01_P": 0.75,
+    "A1.01_R": 0.7,
+    "A1.01_S": 0.8,
+    "A1.01_H": 0.85,
+    "A1.01_F": 0.8,
+    "A1.02_P": 0.75,
+    "A1.02_R": 0.7,
+    "A1.02_S": 0.8,
+    "A1.02_H": 0.85,
+    "A1.02_F": 0.8,
+    "A1.03_P": 0.75,
+    "A1.03_R": 0.7,
+    "A1.03_S": 0.8,
+    "A1.03_H": 0.85,
+    "A1.03_F": 0.8,
+    "A1.04_P": 0.75,
+    "A1.04_R": 0.7,
+    "A1.04_S": 0.8,
+    "A1.04_H": 0.85,
+    "A1.04_F": 0.6,
+    "A2.01_P": 0.75,
+    "A2.01_R": 0.7,
+    "A2.01_S": 0.8,
+    "A2.01_H": 0.85,
+    "A2.01_F": 0.6,
+    "A2.02_P": 0.75,
+    "A2.02_R": 0.7,
+    "A2.02_S": 0.8,
+    "A2.02_H": 0.85,
+    "A2.02_F": 0.6,
+    "A2.03_P": 0.75,
+    "A2.03_R": 0.7,
+    "A2.03_S": 0.6,
+    "A2.03_H": 0.85,
+    "A2.03_F": 0.8,
+    "A2.04_P": 0.75,
+    "A2.04_R": 0.7,
+    "A2.04_S": 0.8,
+    "A2.04_H": 0.85,
+    "A2.04_F": 0.6,
+    "A3.01_P": 0.75,
+    "A3.01_R": 0.45,
+    "A3.01_S": 0.8,
+    "A3.01_H": 0.65,
+    "A3.01_F": 0.8,
+    "A3.02_P": 0.75,
+    "A3.02_R": 0.45,
+    "A3.02_S": 0.8,
+    "A3.02_H": 0.65,
+    "A3.02_F": 0.8,
+    "A3.04_P": 0.75,
+    "A3.04_R": 0.45,
+    "A3.04_S": 0.6,
+    "A3.04_H": 0.65,
+    "A3.04_F": 0.8,
+    "A1.01_score": 0.214,
+    "A1.02_score": 0.214,
+    "A1.03_score": 0.214,
+    "A1.04_score": 0.198,
+    "A2.01_score": 0.198,
+    "A2.02_score": 0.198,
+    "A2.03_score": 0.214,
+    "A2.04_score": 0.198,
+    "A3.01_score": 0.214,
+    "A3.02_score": 0.214,
+    "A3.04_score": 0.214
+  },
+  "recovery": {
+    "incident_id": "INC001",
+    "recovery_version": "RECOVERY-v1.0.0",
+    "decision_id": null,
+    "action_id": "A1.01",
+    "hitl_activated": false,
+    "approval_status": "NOT_REQUIRED",
+    "approval_latency_sec": null,
+    "execution_status": "COMPLETED",
+    "recovery_success": true,
+    "fallback_action": null,
+    "execution_trace": [
+      {
+        "event": "RECOVERY_STARTED",
+        "action_id": "A1.01",
+        "action_class": "AUTONOMOUS_RECOVERY"
+      },
+      {
+        "event": "RECOVERY_COMPLETED",
+        "action_id": "A1.01",
+        "execution_mode": "DEVELOPMENT_SIMULATOR"
+      }
+    ],
+    "governance_compliant": true,
+    "status_note": "Development recovery execution completed. Restoration remains subject to AG05 validation."
+  },
+  "validation": {
+    "incident_id": "INC001",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  "audit_events": [
+    {
+      "audit_id": "AUD-000001",
+      "incident_id": "INC001",
+      "event_id": "INC001-MON",
+      "actor_type": "AG01",
+      "actor_id": "monitoring",
+      "action": "OBSERVE",
+      "policy_evaluated": "monitoring",
+      "policy_result": "PASS",
+      "risk_assessment": "LOW",
+      "decision": "OBSERVED",
+      "justification": "Decision-time monitoring state generated",
+      "timestamp": "2026-01-01T00:00:00",
+      "previous_hash": "GENESIS",
+      "current_hash": "cc4b2fc72e71ca21c8795a65b98d59db41cd6c481e06708cdce66bb5c5eaaf4c",
+      "audit_integrity_status": "VALID"
+    },
+    {
+      "audit_id": "AUD-000002",
+      "incident_id": "INC001",
+      "event_id": "INC001-DIA",
+      "actor_type": "AG02",
+      "actor_id": "diagnosis",
+      "action": "DIAGNOSE",
+      "policy_evaluated": "diagnosis",
+      "policy_result": "PASS",
+      "risk_assessment": "LOW",
+      "decision": "UNKNOWN",
+      "justification": "Deterministic development diagnosis generated",
+      "timestamp": "2026-01-01T00:00:00",
+      "previous_hash": "cc4b2fc72e71ca21c8795a65b98d59db41cd6c481e06708cdce66bb5c5eaaf4c",
+      "current_hash": "17ae195f6086761ace8953638c7d301c25c8352f4dd9af4250569e247bf3550a",
+      "audit_integrity_status": "VALID"
+    },
+    {
+      "audit_id": "AUD-000003",
+      "incident_id": "INC001",
+      "event_id": "INC001-GOV",
+      "actor_type": "AG03",
+      "actor_id": "governance",
+      "action": "GOVERN",
+      "policy_evaluated": "governance",
+      "policy_result": "PASS",
+      "risk_assessment": "LOW",
+      "decision": "LOW",
+      "justification": "Governance gate evaluated before action selection",
+      "timestamp": "2026-01-01T00:00:00",
+      "previous_hash": "17ae195f6086761ace8953638c7d301c25c8352f4dd9af4250569e247bf3550a",
+      "current_hash": "2c6a93d053dff9f5953c877d930e28d47e0df55ec88a4ed74bce4b3667c2df4e",
+      "audit_integrity_status": "VALID"
+    },
+    {
+      "audit_id": "AUD-000004",
+      "incident_id": "INC001",
+      "event_id": "INC001-GDM",
+      "actor_type": "GARDM",
+      "actor_id": "gardm",
+      "action": "DECIDE",
+      "policy_evaluated": "governance",
+      "policy_result": "PASS",
+      "risk_assessment": "LOW",
+      "decision": "A1.01",
+      "justification": "Governed recovery action scored and selected",
+      "timestamp": "2026-01-01T00:00:00",
+      "previous_hash": "2c6a93d053dff9f5953c877d930e28d47e0df55ec88a4ed74bce4b3667c2df4e",
+      "current_hash": "43ecd16b9c5b17ec6d8a94dcb0133d608f527c8e2f1fb8a920e427b72ab71510",
+      "audit_integrity_status": "VALID"
+    },
+    {
+      "audit_id": "AUD-000005",
+      "incident_id": "INC001",
+      "event_id": "INC001-REC",
+      "actor_type": "RECOVERY",
+      "actor_id": "recovery",
+      "action": "EXECUTE",
+      "policy_evaluated": "governance",
+      "policy_result": "PASS",
+      "risk_assessment": "LOW",
+      "decision": "COMPLETED",
+      "justification": "Recovery execution recorded; restoration deferred to validation",
+      "timestamp": "2026-01-01T00:00:00",
+      "previous_hash": "43ecd16b9c5b17ec6d8a94dcb0133d608f527c8e2f1fb8a920e427b72ab71510",
+      "current_hash": "187cb172cf05a09680433f06a03b42c97ab8fc865b6cbbeb44658d78e75f8015",
+      "audit_integrity_status": "VALID"
+    },
+    {
+      "audit_id": "AUD-000006",
+      "incident_id": "INC001",
+      "event_id": "INC001-VAL",
+      "actor_type": "AG05",
+      "actor_id": "validation",
+      "action": "VALIDATE",
+      "policy_evaluated": "validation",
+      "policy_result": "PASS",
+      "risk_assessment": "LOW",
+      "decision": "VERIFIED_RESTORATION",
+      "justification": "Independent restoration validation completed",
+      "timestamp": "2026-01-01T00:00:00",
+      "previous_hash": "187cb172cf05a09680433f06a03b42c97ab8fc865b6cbbeb44658d78e75f8015",
+      "current_hash": "e26b21cd99ec7405769a3af02faa5f84b51e0e6e46a40ad672e8d38d864651c5",
+      "audit_integrity_status": "VALID"
+    }
+  ],
+  "memory_record": {
+    "memory_id": "MEM-000001",
+    "incident_id": "INC001",
+    "fault_code": "UNKNOWN",
+    "fault_category": "Unknown",
+    "pipeline_criticality": null,
+    "severity": "Unknown",
+    "risk_tier": "LOW",
+    "selected_action": "A1.01",
+    "recovery_success": true,
+    "recovery_time_sec": null,
+    "governance_compliance": true,
+    "verified_restoration": true,
+    "incident_timestamp": "2026-01-01T00:00:00",
+    "source": "validated_historical_incident",
+    "memory_version": "MEMORY-v1.0.0"
+  }
+}

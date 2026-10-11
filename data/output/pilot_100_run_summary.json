@@ -1,0 +1,47 @@
+{
+  "pilot_version": "0.3.0-pilot",
+  "incidents": 100,
+  "stage_counts": {
+    "context": 100,
+    "monitoring": 100,
+    "diagnosis": 100,
+    "governance": 100,
+    "gardm": 100,
+    "recovery": 100,
+    "validation": 100
+  },
+  "audit_records": 600,
+  "memory_records": 100,
+  "checks": {
+    "all_100_incidents_present": true,
+    "cross_stage_incident_alignment": true,
+    "six_audit_events_per_incident": true,
+    "global_audit_hash_chain_continuity": true,
+    "decision_time_leakage_scan": true,
+    "unique_gardm_incident_records": true,
+    "validation_complete": true
+  },
+  "distributions": {
+    "risk_tiers": {
+      "LOW": 100
+    },
+    "selected_actions": {
+      "A1.01": 100
+    },
+    "recovery_status": {
+      "COMPLETED": 100
+    },
+    "validation_status": {
+      "VERIFIED_RESTORATION": 100
+    },
+    "self_healing_success": {
+      "True": 100
+    }
+  },
+  "methodological_status": {
+    "pilot_is_development_validation_only": true,
+    "synthetic_expert_responses_are_development_only": true,
+    "pilot_not_for_final_empirical_claims": true,
+    "final_test_set_not_created_by_this_step": true
+  }
+}

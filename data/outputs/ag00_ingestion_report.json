@@ -1,0 +1,230 @@
+{
+  "passed": true,
+  "global_errors": [],
+  "tables": [
+    {
+      "table": "pipeline_dependencies",
+      "rows": 34,
+      "passed": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "table": "regulatory_constraints",
+      "rows": 6,
+      "passed": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "table": "audit_logs",
+      "rows": 300,
+      "passed": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "table": "experiment_runs",
+      "rows": 300,
+      "passed": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "table": "manifest",
+      "rows": 32,
+      "passed": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "table": "candidate_recovery_actions",
+      "rows": 13,
+      "passed": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "table": "validation_events",
+      "rows": 300,
+      "passed": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "table": "evaluation_results",
+      "rows": 300,
+      "passed": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "table": "audit_policies",
+      "rows": 6,
+      "passed": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "table": "hitl_policies",
+      "rows": 6,
+      "passed": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "table": "incident_context",
+      "rows": 100,
+      "passed": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "table": "hitl_events",
+      "rows": 145,
+      "passed": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "table": "customers",
+      "rows": 50,
+      "passed": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "table": "transactions",
+      "rows": 100,
+      "passed": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "table": "ground_truth_decisions",
+      "rows": 100,
+      "passed": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "table": "pipeline_metadata",
+      "rows": 25,
+      "passed": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "table": "governance_evaluations",
+      "rows": 300,
+      "passed": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "table": "fault_catalog",
+      "rows": 27,
+      "passed": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "table": "merchants",
+      "rows": 30,
+      "passed": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "table": "fault_injection_events",
+      "rows": 100,
+      "passed": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "table": "accounts",
+      "rows": 75,
+      "passed": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "table": "agent_events",
+      "rows": 500,
+      "passed": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "table": "risk_rules",
+      "rows": 4,
+      "passed": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "table": "historical_incidents",
+      "rows": 80,
+      "passed": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "table": "pipeline_execution_logs",
+      "rows": 100,
+      "passed": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "table": "governance_policies",
+      "rows": 20,
+      "passed": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "table": "quality_audit",
+      "rows": 40,
+      "passed": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "table": "detection_events",
+      "rows": 100,
+      "passed": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "table": "gardm_decisions",
+      "rows": 100,
+      "passed": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "table": "diagnosis_events",
+      "rows": 100,
+      "passed": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "table": "recovery_execution",
+      "rows": 300,
+      "passed": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "table": "data_quality_metrics",
+      "rows": 100,
+      "passed": true,
+      "errors": [],
+      "warnings": []
+    }
+  ]
+}

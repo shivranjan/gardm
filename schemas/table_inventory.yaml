@@ -1,0 +1,194 @@
+schema_version: 1.0.0
+tables:
+- table: pipeline_dependencies
+  file: pipeline_dependencies.csv
+  pilot_rows: 34
+  columns: 6
+  primary_key: dependency_id
+  purpose: Pipeline dependency relationships.
+- table: regulatory_constraints
+  file: regulatory_constraints.csv
+  pilot_rows: 6
+  columns: 5
+  primary_key: constraint_id
+  purpose: Regulatory obligations/constraints.
+- table: audit_logs
+  file: audit_logs.csv
+  pilot_rows: 300
+  columns: 15
+  primary_key: audit_id
+  purpose: Tamper-evident audit trail.
+- table: experiment_runs
+  file: experiment_runs.csv
+  pilot_rows: 300
+  columns: 11
+  primary_key: experiment_id
+  purpose: Experiment/run metadata for each approach and scenario.
+- table: manifest
+  file: manifest.csv
+  pilot_rows: 32
+  columns: 3
+  primary_key: table
+  purpose: Dataset inventory and expected table dimensions.
+- table: candidate_recovery_actions
+  file: candidate_recovery_actions.csv
+  pilot_rows: 13
+  columns: 8
+  primary_key: action_id
+  purpose: Reference catalog of feasible recovery actions.
+- table: validation_events
+  file: validation_events.csv
+  pilot_rows: 300
+  columns: 12
+  primary_key: validation_id
+  purpose: Post-recovery verification results.
+- table: evaluation_results
+  file: evaluation_results.csv
+  pilot_rows: 300
+  columns: 24
+  primary_key: result_id
+  purpose: Outcome and comparative evaluation metrics.
+- table: audit_policies
+  file: audit_policies.csv
+  pilot_rows: 6
+  columns: 4
+  primary_key: audit_policy_id
+  purpose: Audit policy definitions.
+- table: hitl_policies
+  file: hitl_policies.csv
+  pilot_rows: 6
+  columns: 4
+  primary_key: hitl_policy_id
+  purpose: Human-in-the-loop trigger policies.
+- table: incident_context
+  file: incident_context.csv
+  pilot_rows: 100
+  columns: 25
+  primary_key: incident_id
+  purpose: Decision-time context assembled for each pilot incident.
+- table: hitl_events
+  file: hitl_events.csv
+  pilot_rows: 145
+  columns: 13
+  primary_key: hitl_event_id
+  purpose: HITL requests, responses and fallback decisions.
+- table: customers
+  file: customers.csv
+  pilot_rows: 50
+  columns: 6
+  primary_key: customer_id
+  purpose: Synthetic customer master data supporting transaction context.
+- table: transactions
+  file: transactions.csv
+  pilot_rows: 100
+  columns: 13
+  primary_key: transaction_id
+  purpose: Synthetic transaction records used as business/data context.
+- table: ground_truth_decisions
+  file: ground_truth_decisions.csv
+  pilot_rows: 100
+  columns: 11
+  primary_key: ground_truth_id
+  purpose: Independent ground truth used only for evaluation.
+- table: pipeline_metadata
+  file: pipeline_metadata.csv
+  pilot_rows: 25
+  columns: 12
+  primary_key: pipeline_id
+  purpose: Pipeline metadata and business context.
+- table: governance_evaluations
+  file: governance_evaluations.csv
+  pilot_rows: 300
+  columns: 10
+  primary_key: evaluation_id
+  purpose: Governance evaluation of candidate actions.
+- table: fault_catalog
+  file: fault_catalog.csv
+  pilot_rows: 27
+  columns: 11
+  primary_key: fault_code
+  purpose: Reference catalog of the 27 fault types.
+- table: merchants
+  file: merchants.csv
+  pilot_rows: 30
+  columns: 5
+  primary_key: merchant_id
+  purpose: Synthetic merchant master data supporting transaction context.
+- table: fault_injection_events
+  file: fault_injection_events.csv
+  pilot_rows: 100
+  columns: 15
+  primary_key: fault_event_id
+  purpose: Controlled fault injections used to create pilot incidents.
+- table: accounts
+  file: accounts.csv
+  pilot_rows: 75
+  columns: 7
+  primary_key: account_id
+  purpose: Synthetic account master data linked to customers.
+- table: agent_events
+  file: agent_events.csv
+  pilot_rows: 500
+  columns: 14
+  primary_key: event_id
+  purpose: Multi-agent event trace/correlation log.
+- table: risk_rules
+  file: risk_rules.csv
+  pilot_rows: 4
+  columns: 5
+  primary_key: risk_rule_id
+  purpose: Risk-score-to-tier and HITL mapping rules.
+- table: historical_incidents
+  file: historical_incidents.csv
+  pilot_rows: 80
+  columns: 12
+  primary_key: historical_incident_id
+  purpose: Pre-pilot incidents available to construct the historical H component.
+- table: pipeline_execution_logs
+  file: pipeline_execution_logs.csv
+  pilot_rows: 100
+  columns: 12
+  primary_key: execution_id
+  purpose: Execution-level operational telemetry for pipeline runs.
+- table: governance_policies
+  file: governance_policies.csv
+  pilot_rows: 20
+  columns: 5
+  primary_key: policy_id
+  purpose: Active governance policy definitions.
+- table: quality_audit
+  file: quality_audit.csv
+  pilot_rows: 40
+  columns: 3
+  primary_key: check
+  purpose: Pilot dataset quality-control checklist/results.
+- table: detection_events
+  file: detection_events.csv
+  pilot_rows: 100
+  columns: 9
+  primary_key: detection_id
+  purpose: Detection lifecycle events and detection latency.
+- table: gardm_decisions
+  file: gardm_decisions.csv
+  pilot_rows: 100
+  columns: 36
+  primary_key: decision_id
+  purpose: GARDM feature scores, weights, action scores and selected action.
+- table: diagnosis_events
+  file: diagnosis_events.csv
+  pilot_rows: 100
+  columns: 10
+  primary_key: diagnosis_id
+  purpose: Diagnosis outputs produced for incidents.
+- table: recovery_execution
+  file: recovery_execution.csv
+  pilot_rows: 300
+  columns: 14
+  primary_key: recovery_execution_id
+  purpose: Execution traces for recovery approaches/actions.
+- table: data_quality_metrics
+  file: data_quality_metrics.csv
+  pilot_rows: 100
+  columns: 9
+  primary_key: dq_id
+  purpose: Execution-level data-quality metrics.

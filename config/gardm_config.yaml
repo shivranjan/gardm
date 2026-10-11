@@ -1,0 +1,29 @@
+project:
+  name: BDP-GARDM
+  version: "0.3.0-pilot"
+  random_seed: 42
+
+dataset:
+  expected_incidents: 100
+  input_format: csv
+  raw_dir: data/raw
+  interim_dir: data/interim
+  processed_dir: data/processed
+  output_dir: data/outputs
+
+gardm:
+  feature_weights:
+    P: 0.20
+    R: 0.25
+    S: 0.20
+    H: 0.15
+    F: 0.20
+  risk_threshold: 0.60
+
+pipeline:
+  fail_on_schema_error: true
+  preserve_raw_data: true
+  log_level: INFO
+
+expert:
+  provider: synthetic

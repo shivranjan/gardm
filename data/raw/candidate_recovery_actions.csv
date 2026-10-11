@@ -1,0 +1,14 @@
+action_id,action_class,action_name,requires_approval,data_modification,rollback_capability,expected_recovery_time_sec,active_status
+A1.01,AUTONOMOUS_RECOVERY,Retry failed task,0,0,1,74,ACTIVE
+A1.02,AUTONOMOUS_RECOVERY,Restart job,0,0,1,154,ACTIVE
+A1.03,AUTONOMOUS_RECOVERY,Restore checkpoint,0,0,1,153,ACTIVE
+A1.04,AUTONOMOUS_RECOVERY,Reprocess partition,0,1,1,201,ACTIVE
+A1.05,AUTONOMOUS_RECOVERY,Apply validated schema mapping,0,1,0,365,ACTIVE
+A2.01,ADAPTIVE_REPLANNING,Change execution plan,0,1,1,127,ACTIVE
+A2.02,ADAPTIVE_REPLANNING,Reroute pipeline,0,1,1,109,ACTIVE
+A2.03,ADAPTIVE_REPLANNING,Reallocate resources,0,0,1,531,ACTIVE
+A2.04,ADAPTIVE_REPLANNING,Change dependency order,0,1,1,192,ACTIVE
+A3.01,HITL_ESCALATION,Request human approval,1,0,0,166,ACTIVE
+A3.02,HITL_ESCALATION,Hold pipeline,1,0,0,166,ACTIVE
+A3.03,HITL_ESCALATION,Manual recovery,1,1,0,596,ACTIVE
+A3.04,HITL_ESCALATION,Reject proposed recovery,1,0,0,463,ACTIVE

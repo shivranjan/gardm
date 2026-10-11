@@ -1,0 +1,4102 @@
+[
+  {
+    "incident_id": "INC001",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC002",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC003",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC004",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC005",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC006",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC007",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC008",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC009",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC010",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC011",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC012",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC013",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC014",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC015",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC016",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC017",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC018",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC019",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC020",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC021",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC022",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC023",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC024",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC025",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC026",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC027",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC028",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC029",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC030",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC031",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC032",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC033",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC034",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC035",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC036",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC037",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC038",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC039",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC040",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC041",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC042",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC043",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC044",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC045",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC046",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC047",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC048",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC049",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC050",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC051",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC052",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC053",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC054",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC055",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC056",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC057",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC058",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC059",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC060",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC061",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC062",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC063",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC064",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC065",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC066",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC067",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC068",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC069",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC070",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC071",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC072",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC073",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC074",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC075",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC076",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC077",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC078",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC079",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC080",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC081",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC082",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC083",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC084",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC085",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC086",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC087",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC088",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC089",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC090",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC091",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC092",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC093",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC094",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC095",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC096",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC097",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC098",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC099",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  },
+  {
+    "incident_id": "INC100",
+    "diagnosis_version": "AG02-v1.0.0",
+    "diagnosis_timestamp": null,
+    "predicted_fault_code": "UNKNOWN",
+    "predicted_fault_category": "Unknown",
+    "predicted_severity": "Unknown",
+    "root_cause": "Unclassified operational fault requiring further investigation.",
+    "diagnosis_confidence": 0.4,
+    "diagnosis_latency_sec": null,
+    "diagnosis_success": null,
+    "diagnosis_explanation": "Development deterministic diagnosis: no diagnostic symptom rule fired. This output is not used as ground truth.",
+    "evidence_features": [
+      "no diagnostic symptom rule fired",
+      "operational_risk",
+      "pipeline_state_score",
+      "business_impact_score"
+    ],
+    "feature_provenance": {
+      "no diagnostic symptom rule fired": {
+        "source": "AG01.MonitoringState",
+        "field": "no diagnostic symptom rule fired",
+        "role": "diagnostic_evidence"
+      },
+      "operational_risk": {
+        "source": "AG01.MonitoringState",
+        "field": "operational_risk",
+        "role": "diagnostic_evidence"
+      },
+      "pipeline_state_score": {
+        "source": "AG01.MonitoringState",
+        "field": "pipeline_state_score",
+        "role": "diagnostic_evidence"
+      },
+      "business_impact_score": {
+        "source": "AG01.MonitoringState",
+        "field": "business_impact_score",
+        "role": "diagnostic_evidence"
+      }
+    }
+  }
+]

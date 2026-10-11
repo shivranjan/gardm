@@ -1,0 +1,27 @@
+schema_version: 1.0.0
+global_rules:
+- All primary keys are unique and non-null.
+- Foreign keys must resolve to the referenced parent key unless explicitly nullable.
+- Binary indicator fields must be 0/1.
+- Score/probability fields must remain in [0,1].
+- Timestamps must parse as datetimes and obey lifecycle ordering.
+- Ground truth is independent of GARDM outputs and future execution outcomes.
+- Historical incidents are temporally prior to pilot incidents.
+- Experiment IDs are unique.
+- A self-healing success requires detection + diagnosis + governed recovery + verified
+  restoration.
+table_specific_rules:
+- table: gardm_decisions
+  rule: w_P+w_R+w_S+w_H+w_F = 1 within numerical tolerance.
+- table: gardm_decisions
+  rule: A*_score must equal the configured weighted score for the corresponding action
+    features.
+- table: risk_rules
+  rule: Risk intervals should be ordered, non-overlapping and cover the intended score
+    domain.
+- table: evaluation_results
+  rule: Evaluation fields are outputs/targets and must be excluded from model/decision-time
+    feature construction.
+- table: ground_truth_decisions
+  rule: Ground-truth action/severity/risk labels must remain independent of GARDM
+    selected_action.

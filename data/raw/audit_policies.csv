@@ -1,0 +1,7 @@
+audit_policy_id,policy_name,required_elements,enabled
+AUD01,DECISION,"Incident, action, reason, timestamp",1
+AUD02,GOVERNANCE,Policy and risk checks,1
+AUD03,RECOVERY,Execution outcome,1
+AUD04,VALIDATION,Restoration checks,1
+AUD05,HITL,Approval decision and latency,1
+AUD06,INTEGRITY,Hash-chain verification,1

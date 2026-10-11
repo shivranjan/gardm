@@ -1,0 +1,21 @@
+policy_id,policy_category,condition,scope,active_status
+POL-001,PII,PII-involved pipelines require governed recovery,PII,1
+POL-002,REG,Regulatory pipelines require lineage preservation,REGULATORY,1
+POL-003,AUD,Every recovery must be auditable,ALL,1
+POL-004,RISK,Risk above medium requires HITL,RISK,1
+POL-005,CRIT,Critical pipelines require controlled recovery,CRITICAL,1
+POL-006,SCHEMA,Unapproved schema transformation cannot be autonomous,SCHEMA,1
+POL-007,DATA,Destructive data modification requires approval,DATA,1
+POL-008,DEPEND,Dependency changes require validation,ORCHESTRATION,1
+POL-009,RET,Retention constraints must remain satisfied,DATA,1
+POL-010,ACCESS,Restricted data changes require oversight,ACCESS,1
+POL-011,TRACE,Decision justification is required,ALL,1
+POL-012,VAL,Recovery requires post-execution validation,ALL,1
+POL-013,CONF,Low diagnosis confidence triggers review,RISK,1
+POL-014,FAIL,Repeated recovery failure requires escalation,RECOVERY,1
+POL-015,LINEAGE,Lineage metadata must be preserved,REGULATORY,1
+POL-016,INTEGRITY,Data integrity must be verified after recovery,ALL,1
+POL-017,SLA,Critical SLA breaches require escalation,SLA,1
+POL-018,HUMAN,Human approval cannot be bypassed when mandated,HITL,1
+POL-019,MEM,Historical evidence may support but not override policy,MEMORY,1
+POL-020,VERSION,Policy version must be recorded,AUDIT,1

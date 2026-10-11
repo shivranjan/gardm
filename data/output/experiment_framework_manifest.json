@@ -1,0 +1,32 @@
+[
+  {
+    "experiment_id": "EXP-ef71a2ca461d",
+    "approach": "rule_based",
+    "scenario_id": "PILOT-SCENARIO-01",
+    "fault_category": "pilot",
+    "topology_id": "PILOT-TOPOLOGY",
+    "split": "development_validation",
+    "run_number": 1,
+    "random_seed": 42
+  },
+  {
+    "experiment_id": "EXP-c8a2bb49483e",
+    "approach": "rf",
+    "scenario_id": "PILOT-SCENARIO-01",
+    "fault_category": "pilot",
+    "topology_id": "PILOT-TOPOLOGY",
+    "split": "development_validation",
+    "run_number": 1,
+    "random_seed": 42
+  },
+  {
+    "experiment_id": "EXP-fd9d0f1a258d",
+    "approach": "gardm",
+    "scenario_id": "PILOT-SCENARIO-01",
+    "fault_category": "pilot",
+    "topology_id": "PILOT-TOPOLOGY",
+    "split": "development_validation",
+    "run_number": 1,
+    "random_seed": 42
+  }
+]

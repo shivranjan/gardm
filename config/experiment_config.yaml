@@ -1,0 +1,56 @@
+experiment:
+  version: "1.0.0"
+  status: "framework_only"
+  purpose: "Define reproducible research experiments without using the pilot as final evidence."
+
+dataset:
+  pilot_role: "development_validation_only"
+  final_target:
+    development_incidents: 5000
+    validation_incidents: 2000
+    locked_test_incidents: 3000
+  split_rule: "scenario_based"
+  test_lock: true
+  unseen_topology_required: true
+
+baselines:
+  - id: "rule_based"
+    name: "Deterministic Rule-Based"
+  - id: "rf"
+    name: "Random Forest"
+  - id: "gardm"
+    name: "GARDM"
+
+metrics:
+  primary:
+    - recovery_accuracy
+    - mttr_sec
+    - governance_compliance
+    - operational_reliability
+  secondary:
+    - detection_success
+    - diagnosis_success
+    - verified_restoration
+    - self_healing_success
+
+statistics:
+  confidence_level: 0.95
+  report_effect_sizes: true
+  report_confidence_intervals: true
+  report_p_values: true
+  stratify_by:
+    - topology
+    - fault_category
+    - risk_tier
+    - traffic_condition
+    - attack_distribution
+
+ablations:
+  - id: "no_memory"
+    component: "historical_memory_H"
+  - id: "no_governance_filter"
+    component: "governance_action_filtering"
+  - id: "no_compatibility"
+    component: "fault_action_compatibility"
+  - id: "no_constraints"
+    component: "risk_HITL_constraints"

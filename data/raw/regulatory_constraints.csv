@@ -1,0 +1,7 @@
+constraint_id,obligation,scope,regulatory_reference,active_status
+REG01,LINEAGE_REQUIRED,Regulatory pipelines,BCBS_239,1
+REG02,AUDIT_TRAIL_REQUIRED,Recovery decisions,BCBS_239,1
+REG03,DATA_INTEGRITY_REQUIRED,Banking pipelines,BCBS_239,1
+REG04,TRACEABILITY_REQUIRED,Recovery actions,BCBS_239,1
+REG05,CONTROLLED_CHANGE,Regulatory transformations,BCBS_239,1
+REG06,GOVERNED_RECOVERY,High-risk regulatory operations,BCBS_239,1

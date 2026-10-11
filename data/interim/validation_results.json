@@ -1,0 +1,4302 @@
+[
+  {
+    "incident_id": "INC001",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC002",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC003",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC004",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC005",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC006",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC007",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC008",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC009",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC010",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC011",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC012",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC013",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC014",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC015",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC016",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC017",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC018",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC019",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC020",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC021",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC022",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC023",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC024",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC025",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC026",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC027",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC028",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC029",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC030",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC031",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC032",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC033",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC034",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC035",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC036",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC037",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC038",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC039",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC040",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC041",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC042",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC043",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC044",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC045",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC046",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC047",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC048",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC049",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC050",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC051",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC052",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC053",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC054",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC055",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC056",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC057",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC058",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC059",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC060",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC061",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC062",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC063",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC064",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC065",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC066",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC067",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC068",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC069",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC070",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC071",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC072",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC073",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC074",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC075",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC076",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC077",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC078",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC079",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC080",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC081",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC082",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC083",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC084",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC085",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC086",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC087",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC088",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC089",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC090",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC091",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC092",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC093",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC094",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC095",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC096",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC097",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC098",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC099",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  },
+  {
+    "incident_id": "INC100",
+    "validation_version": "AG05-v1.0.0",
+    "validation_timestamp": null,
+    "recovery_execution_id": null,
+    "service_restored": true,
+    "data_integrity_restored": true,
+    "data_quality_restored": true,
+    "pipeline_state_restored": true,
+    "governance_verified": true,
+    "audit_record_verified": true,
+    "validation_confidence": 1.0,
+    "validation_status": "VERIFIED_RESTORATION",
+    "validation_checks": {
+      "service_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_integrity_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "data_quality_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "pipeline_state_restored": {
+        "observed": true,
+        "source": "post_recovery_observation"
+      },
+      "governance_verified": {
+        "observed": true,
+        "source": "governance_state/recovery"
+      },
+      "audit_record_verified": {
+        "observed": true,
+        "source": "audit_validation_input"
+      }
+    },
+    "validation_explanation": "Restoration is determined only after independent validation checks; recovery execution alone is insufficient.",
+    "verified_restoration": true,
+    "self_healing_success": true
+  }
+]

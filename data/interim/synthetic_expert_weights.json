@@ -1,0 +1,12 @@
+{
+  "provider": "synthetic",
+  "development_only": true,
+  "weights": {
+    "w_P": 0.2,
+    "w_R": 0.25,
+    "w_S": 0.2,
+    "w_H": 0.15,
+    "w_F": 0.2
+  },
+  "normalization_sum": 1.0
+}

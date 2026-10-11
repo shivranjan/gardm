@@ -1,0 +1,252 @@
+[
+  {
+    "expert_id": "SYN-E01",
+    "question_id": "WEIGHT-w_P",
+    "parameter": "w_P",
+    "value": 0.21,
+    "confidence": 0.8,
+    "rationale": "Synthetic development response for interface validation.",
+    "provider": "synthetic",
+    "development_only": true
+  },
+  {
+    "expert_id": "SYN-E01",
+    "question_id": "WEIGHT-w_R",
+    "parameter": "w_R",
+    "value": 0.25,
+    "confidence": 0.8,
+    "rationale": "Synthetic development response for interface validation.",
+    "provider": "synthetic",
+    "development_only": true
+  },
+  {
+    "expert_id": "SYN-E01",
+    "question_id": "WEIGHT-w_S",
+    "parameter": "w_S",
+    "value": 0.19,
+    "confidence": 0.8,
+    "rationale": "Synthetic development response for interface validation.",
+    "provider": "synthetic",
+    "development_only": true
+  },
+  {
+    "expert_id": "SYN-E01",
+    "question_id": "WEIGHT-w_H",
+    "parameter": "w_H",
+    "value": 0.15,
+    "confidence": 0.8,
+    "rationale": "Synthetic development response for interface validation.",
+    "provider": "synthetic",
+    "development_only": true
+  },
+  {
+    "expert_id": "SYN-E01",
+    "question_id": "WEIGHT-w_F",
+    "parameter": "w_F",
+    "value": 0.2,
+    "confidence": 0.8,
+    "rationale": "Synthetic development response for interface validation.",
+    "provider": "synthetic",
+    "development_only": true
+  },
+  {
+    "expert_id": "SYN-E02",
+    "question_id": "WEIGHT-w_P",
+    "parameter": "w_P",
+    "value": 0.2,
+    "confidence": 0.8,
+    "rationale": "Synthetic development response for interface validation.",
+    "provider": "synthetic",
+    "development_only": true
+  },
+  {
+    "expert_id": "SYN-E02",
+    "question_id": "WEIGHT-w_R",
+    "parameter": "w_R",
+    "value": 0.26,
+    "confidence": 0.8,
+    "rationale": "Synthetic development response for interface validation.",
+    "provider": "synthetic",
+    "development_only": true
+  },
+  {
+    "expert_id": "SYN-E02",
+    "question_id": "WEIGHT-w_S",
+    "parameter": "w_S",
+    "value": 0.2,
+    "confidence": 0.8,
+    "rationale": "Synthetic development response for interface validation.",
+    "provider": "synthetic",
+    "development_only": true
+  },
+  {
+    "expert_id": "SYN-E02",
+    "question_id": "WEIGHT-w_H",
+    "parameter": "w_H",
+    "value": 0.14,
+    "confidence": 0.8,
+    "rationale": "Synthetic development response for interface validation.",
+    "provider": "synthetic",
+    "development_only": true
+  },
+  {
+    "expert_id": "SYN-E02",
+    "question_id": "WEIGHT-w_F",
+    "parameter": "w_F",
+    "value": 0.2,
+    "confidence": 0.8,
+    "rationale": "Synthetic development response for interface validation.",
+    "provider": "synthetic",
+    "development_only": true
+  },
+  {
+    "expert_id": "SYN-E03",
+    "question_id": "WEIGHT-w_P",
+    "parameter": "w_P",
+    "value": 0.19,
+    "confidence": 0.8,
+    "rationale": "Synthetic development response for interface validation.",
+    "provider": "synthetic",
+    "development_only": true
+  },
+  {
+    "expert_id": "SYN-E03",
+    "question_id": "WEIGHT-w_R",
+    "parameter": "w_R",
+    "value": 0.25,
+    "confidence": 0.8,
+    "rationale": "Synthetic development response for interface validation.",
+    "provider": "synthetic",
+    "development_only": true
+  },
+  {
+    "expert_id": "SYN-E03",
+    "question_id": "WEIGHT-w_S",
+    "parameter": "w_S",
+    "value": 0.21,
+    "confidence": 0.8,
+    "rationale": "Synthetic development response for interface validation.",
+    "provider": "synthetic",
+    "development_only": true
+  },
+  {
+    "expert_id": "SYN-E03",
+    "question_id": "WEIGHT-w_H",
+    "parameter": "w_H",
+    "value": 0.15,
+    "confidence": 0.8,
+    "rationale": "Synthetic development response for interface validation.",
+    "provider": "synthetic",
+    "development_only": true
+  },
+  {
+    "expert_id": "SYN-E03",
+    "question_id": "WEIGHT-w_F",
+    "parameter": "w_F",
+    "value": 0.2,
+    "confidence": 0.8,
+    "rationale": "Synthetic development response for interface validation.",
+    "provider": "synthetic",
+    "development_only": true
+  },
+  {
+    "expert_id": "SYN-E04",
+    "question_id": "WEIGHT-w_P",
+    "parameter": "w_P",
+    "value": 0.2,
+    "confidence": 0.8,
+    "rationale": "Synthetic development response for interface validation.",
+    "provider": "synthetic",
+    "development_only": true
+  },
+  {
+    "expert_id": "SYN-E04",
+    "question_id": "WEIGHT-w_R",
+    "parameter": "w_R",
+    "value": 0.24,
+    "confidence": 0.8,
+    "rationale": "Synthetic development response for interface validation.",
+    "provider": "synthetic",
+    "development_only": true
+  },
+  {
+    "expert_id": "SYN-E04",
+    "question_id": "WEIGHT-w_S",
+    "parameter": "w_S",
+    "value": 0.2,
+    "confidence": 0.8,
+    "rationale": "Synthetic development response for interface validation.",
+    "provider": "synthetic",
+    "development_only": true
+  },
+  {
+    "expert_id": "SYN-E04",
+    "question_id": "WEIGHT-w_H",
+    "parameter": "w_H",
+    "value": 0.16,
+    "confidence": 0.8,
+    "rationale": "Synthetic development response for interface validation.",
+    "provider": "synthetic",
+    "development_only": true
+  },
+  {
+    "expert_id": "SYN-E04",
+    "question_id": "WEIGHT-w_F",
+    "parameter": "w_F",
+    "value": 0.2,
+    "confidence": 0.8,
+    "rationale": "Synthetic development response for interface validation.",
+    "provider": "synthetic",
+    "development_only": true
+  },
+  {
+    "expert_id": "SYN-E05",
+    "question_id": "WEIGHT-w_P",
+    "parameter": "w_P",
+    "value": 0.2,
+    "confidence": 0.8,
+    "rationale": "Synthetic development response for interface validation.",
+    "provider": "synthetic",
+    "development_only": true
+  },
+  {
+    "expert_id": "SYN-E05",
+    "question_id": "WEIGHT-w_R",
+    "parameter": "w_R",
+    "value": 0.25,
+    "confidence": 0.8,
+    "rationale": "Synthetic development response for interface validation.",
+    "provider": "synthetic",
+    "development_only": true
+  },
+  {
+    "expert_id": "SYN-E05",
+    "question_id": "WEIGHT-w_S",
+    "parameter": "w_S",
+    "value": 0.2,
+    "confidence": 0.8,
+    "rationale": "Synthetic development response for interface validation.",
+    "provider": "synthetic",
+    "development_only": true
+  },
+  {
+    "expert_id": "SYN-E05",
+    "question_id": "WEIGHT-w_H",
+    "parameter": "w_H",
+    "value": 0.15,
+    "confidence": 0.8,
+    "rationale": "Synthetic development response for interface validation.",
+    "provider": "synthetic",
+    "development_only": true
+  },
+  {
+    "expert_id": "SYN-E05",
+    "question_id": "WEIGHT-w_F",
+    "parameter": "w_F",
+    "value": 0.2,
+    "confidence": 0.8,
+    "rationale": "Synthetic development response for interface validation.",
+    "provider": "synthetic",
+    "development_only": true
+  }
+]

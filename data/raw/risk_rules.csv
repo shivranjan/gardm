@@ -1,0 +1,5 @@
+risk_rule_id,min_score,max_score,risk_tier,hitl_required
+R1,0.0,0.449,LOW,0
+R2,0.45,0.599,MEDIUM,0
+R3,0.6,0.749,HIGH,1
+R4,0.75,1.0,CRITICAL,1
